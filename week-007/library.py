@@ -1,9 +1,6 @@
 def hello_world():
-    print("hello world")
+    print('hello')
 
-def goodbye():
-    print("goodbye")
-    
 def func(arg):
     return 100 * arg
 
