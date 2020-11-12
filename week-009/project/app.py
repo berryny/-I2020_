@@ -29,15 +29,20 @@ assets.register(bundles)
 def home():
     return render_template("index.html")
 
-@app.route("/sqrt/<input>")
+@app.route("/sqrt/<input>/")
 # Define the website pages
 def sqrt(input):
-    print('input',input**2)
-    return render_template("sqrt.html", output=input)
+    i = (int(input) ** 2)
+    return render_template("sqrt.html", output=i)
 
-@app.route("/user/<username>")
+@app.route("/user/")
 # Define the website pages
-def user(username):
+def user():
+    return render_template("user.html")
+
+@app.route("/user/<username>/")
+# Define the website pages
+def userpage(username):
     print('username',username)
     return render_template("user.html", usr=username)
 
