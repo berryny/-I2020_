@@ -1,0 +1,1394 @@
+[{
+    "category": "Immigrant",
+    "website": "https://www1.nyc.gov/site/immigrants/help/legal-services/deferred-action.page",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.nycommunitytrust.org/newsroom/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://a858-nycnotify.nyc.gov/notifynyc",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/site/dca/consumers/credit-debt.page",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://council.nyc.gov/press/2020/04/21/1940/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.nyccrr.org/covidupdate",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.redcross.org/NYSCOVIDFamilySupport",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.redcross.org/NYSCOVIDApoyoFamiliar",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://2020census.gov/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www1.nyc.gov/site/helpnownyc/index.page",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "http://www.surveygizmo.com/s3/5505506/COVID-19-Partner-with-the-NYC-Health-Department?contactID=0033A00002XiVJD",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.headspace.com/ny",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation", "mental health"]
+  },
+  {
+    "category": "Health",
+    "website": "https://covid19.montefiore.org/anxiety-and-covid19",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation", "mental health"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://coronavirus.health.ny.gov/new-york-state-contact-tracing",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www1.nyc.gov/site/coronavirus/get-tested/antibody-testing.page",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://covidtracking.com",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.who.int/health-topics/coronavirus#tab=tab_1",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.who.int/ethics/publications/infectious-disease-outbreaks/en/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.nybc.org/donate-blood/covid-19-and-blood-donation-copy/convalescent-plasma/",
+    "tags": ["services", "food", "school", "health"]
+  },
+  {
+    "category": "Health",
+    "website": "https://coronavirus.health.ny.gov/find-test-site-near-you",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://bioethics.jhu.edu/research-and-outreach/projects/ethics-guidance-lessons-from-ebola/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.nypcc.org/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.nypcc.org/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.foodbanknyc.org/get-help/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.jasa.org/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "http://www.mygovnyc.org/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.northwestbronx.org/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/site/hra/help/burial-assistance.page",
+    "tags": ["services", "burial", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.vipservices.org/covid/",
+    "tags": ["services", "health", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://projectcupid.cityofnewyork.us/app/cupid#/display/5ea1d0bda46ab1020e1659f4",
+    "tags": ["services", "marriage", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Volunteer",
+    "website": "https://www1.nyc.gov/site/helpnownyc/give-help/volunteer.page",
+    "tags": ["services", "food", "school", "health", "housing", "volunteer"]
+  },
+  {
+    "category": "Volunteer",
+    "website": "https://www.newyorkcares.org/coronavirus",
+    "tags": ["services", "food", "school", "health", "housing", "volunteer"]
+  },
+  {
+    "category": "Volunteer",
+    "website": "https://www.nycservice.org/search/index.php?cmd=widget&category_id=&key%20word=virtual&zip=false&isZip=false&cmd=widget#s",
+    "tags": ["services", "food", "school", "health", "housing", "volunteer"]
+  },
+  {
+    "category": "Volunteer",
+    "website": "https://www1.nyc.gov/site/helpnownyc/get-help/individuals.page",
+    "tags": ["services", "food", "school", "health", "housing", "individuals"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.governor.ny.gov/programs/new-york-forward",
+    "tags": ["services", "food", "school", "health", "housing", "family"]
+  },
+  {
+    "category": "Services",
+    "website": "https://forward.ny.gov/",
+    "tags": ["services", "food", "school", "health", "housing", "family"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/nyc-resources/city-agency-service-updates.page",
+    "tags": ["services", "food", "school", "health", "housing", "family"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/site/ocdv/programs/family-justice-centers.page",
+    "tags": ["services", "food", "school", "health", "housing", "family"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/site/cau/animals/animal-welfare.page",
+    "tags": ["services", "pets"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www.cunyurbanfoodpolicy.org/",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "http://bronxboropres.nyc.gov/health-human-services/food-assistance/",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://sites.google.com/foodeducationfund.org/foodhubnyc/home",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www.grownyc.org/freshfoodbox",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www.cityharvest.org/programs/mobile-markets/",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www.nycfoodpolicy.org/coronavirus-nyc-food-reports",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www1.nyc.gov/site/hra/help/snap-online-shopping.page",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://otda.ny.gov/SNAP-COVID-19/Frequently-Asked-Questions-Pandemic-EBT.asp",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www.health.ny.gov/prevention/nutrition/wic/",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www1.nyc.gov/site/neon/programs/nutrition-kitchen.page",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www.opt-osfns.org/schoolfoodny/meals/default.aspx",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www.schools.nyc.gov/school-life/food/free-meals",
+    "tags": ["nutrition", "meals", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www.nypl.org/about/remote-resources/kids-and-teens",
+    "tags": ["health", "service", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www.nyrr.org/youth/active-at-home",
+    "tags": ["education", "youth", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://coronavirus.schools.nyc/RemoteLearningDevices",
+    "tags": ["education", "youth", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www.nypl.org/about/remote-resources/kids-and-teens/homework-help-brainfuse",
+    "tags": ["education", "youth", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www.schools.nyc.gov/learn-at-home",
+    "tags": ["education", "youth", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www.childrensaidnyc.org/impact/stories/coronavirus-impact-our-community",
+    "tags": ["health", "youth", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www.nysylc.org/undocufunds",
+    "tags": ["services", "funding", "youth", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www1.nyc.gov/site/dca/consumers/Student-Loan-Debt-Tips-During-COVID19.page",
+    "tags": ["services", "funding", "youth", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://myscholly.com/hallo",
+    "tags": ["school", "scholarships", "finance"]
+  },
+  {
+    "category": "Education",
+    "website": "http://teacher.scholastic.com/education/coronavirusworkbook/index.html",
+    "tags": ["school", "scholarships", "finance"]
+  },
+  {
+    "category": "Education",
+    "website": "https://nyctecenter.org/general-information",
+    "tags": ["technology", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www.cuny.edu/coronavirus/",
+    "tags": ["nutrition", "meals", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www.schools.nyc.gov/school-life/health-and-wellness/coronavirus-update",
+    "tags": ["nutrition", "meals", "school", "free"]
+  },
+  {
+    "category": "Education",
+    "website": "https://www.schools.nyc.gov/enrollment/enrollment-help/regional-enrichment-centers",
+    "tags": ["nutrition", "meals", "school", "free"]
+  },
+  {
+    "category": "Food",
+    "website": "https://www1.nyc.gov/site/hra/help/snap-online-shopping.page",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "category": "Education",
+    "website": "https://infohub.nyced.org/in-our-schools/operations/coronavirus-communications",
+    "tags": ["school", "free"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://portal.311.nyc.gov/article/?kanumber=KA-01042",
+    "tags": ["housing", "justice", "tenants", "311"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://www1.nyc.gov/office-of-the-mayor/news/279-20/mayor-de-blasio-new-plan-combat-covid-19-nycha",
+    "tags": ["housing", "justice", "tenants", "service"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://www.metcouncilonhousing.org/help-answers/eviction-moratorium-faqs/",
+    "tags": ["housing", "justice", "tenants", "service"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://thenyhc.org/2020/03/31/new-hud-covid-19-funding-for-ny/",
+    "tags": ["housing", "justice", "tenants", "service"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://anhd.org/trainings/how-facilitate-video-meetings",
+    "tags": ["housing", "justice", "tenants", "311"]
+  },
+  {
+    "category": "Services",
+    "website": "https://access.nyc.gov/coronavirus-covid-19-updates/",
+    "tags": ["food", "school", "health", "services"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.givegab.com/campaigns/jahajee-sisters-emergency-fund",
+    "tags": ["women", "health", "services"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/nyc-resources/city-agency-service-updates.page",
+    "tags": ["food", "school", "health", "services"]
+  },
+  {
+    "category": "Services",
+    "website": "https://zakatfundofnyc.org/nyc-ramadan-relief",
+    "tags": ["finance", "health", "services"]
+  },
+  {
+    "category": "Services",
+    "website": "https://zakatfundofnyc.org/apply-for-funding",
+    "tags": ["finance", "health", "services"]
+  },
+  {
+    "category": "Services",
+    "website": "https://portal.311.nyc.gov/article/?kanumber=KA-02275",
+    "tags": ["dmv", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://access.nyc.gov/coronavirus-covid-19-updates/#section-2s",
+    "tags": ["food", "school", "health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://cv19engagementportal.cityofnewyork.us/#/display/5e7b8d9bf73aa702106ed0c7",
+    "tags": ["ppe", "health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://edc.nyc/covid-19-emergency-supply-sourcing-manufacturing",
+    "tags": ["ppe", "health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www1.nyc.gov/site/coronavirus/resources/facecoverings.page",
+    "tags": ["parks", "health", "services"]
+  },
+  {
+    "category": "Seniors",
+    "website": "https://www1.nyc.gov/site/dfta/services/senior-centers.page",
+    "tags": ["food", "seniors", "health", "services"]
+  },
+  {
+    "category": "Seniors",
+    "website": "https://www.nyrr.org/run/~/link.aspx?_id=F050FFC1C5074DA6BA54824DE7149E53&_z=z",
+    "tags": ["food", "seniors", "health", "services"]
+  },
+  {
+    "category": "Seniors",
+    "website": "https://www1.nyc.gov/office-of-the-mayor/news/350-20/mayor-de-blasio-covid-19-heat-wave-plan-protect-vulnerable-new-yorkers",
+    "tags": ["food", "seniors", "health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www1.nyc.gov/site/coronavirus/index.page",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.governor.ny.gov/content/nys-clean-hand-sanitizer-request-form",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.covid-19workinggroupnyc.org/",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://emcrit.org/ibcc/covid19/",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www1.nyc.gov/site/coronavirus/resources/facecoverings.page",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Parks",
+    "website": "https://www1.nyc.gov/site/coronavirus/resources/facecoverings.page",
+    "tags": ["health", "services", "nyc parks"]
+  },
+  {
+    "category": "Parks",
+    "website": "https://www.nachi.org/compost-pile-hazards.htm",
+    "tags": ["compost", "services", "nyc parks"]
+  },
+  {
+    "category": "Parks",
+    "website": "https://www1.nyc.gov/html/dot/html/pedestrians/openstreets.shtml",
+    "tags": ["health", "services", "nyc parks", "open streets"]
+  },
+  {
+    "category": "Parks",
+    "website": "http://www.ny4p.org/news/official-parks-updates-in-response-to-the-coronavirus-outbreak",
+    "tags": ["health", "services", "nyc parks"]
+  },
+  {
+    "category": "Parks",
+    "website": "https://www.compostingcouncil.org/page/Composting-In-The-Time-of-COVID-19",
+    "tags": ["health", "services", "nyc parks", "composting"]
+  },
+  {
+    "category": "Parks",
+    "website": "https://www.nrpa.org/blog/how-to-communicate-to-your-public-about-safe-use-of-parks/",
+    "tags": ["health", "services", "nyc parks"]
+  },
+  {
+    "category": "Health",
+    "website": "https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Map?%3Aembed=yes&%3Atoolbar=no",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www1.nyc.gov/site/doh/covid/covid-19-main-sp.page",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://espanol.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/site/helpnownyc/get-help/individuals.page",
+    "tags": ["food", "school", "health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://coronavirus.health.ny.gov/new-york-state-pause",
+    "tags": ["food", "school", "health", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://www1.nyc.gov/site/sbs/careers/careers.page",
+    "tags": ["jobs", "careers", "health", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://dol.ny.gov/shared-work-program-0",
+    "tags": ["jobs", "careers", "health", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://www.ny.gov/programs/new-york-state-covid-19-technology-swat-team",
+    "tags": ["jobs", "careers", "technology", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://www.rethinkfood.nyc/efr-hiring",
+    "tags": ["jobs", "careers", "health", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://fphnyc.org/about/careers/",
+    "tags": ["jobs", "careers", "health", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://invisiblehandsdeliver.org/",
+    "tags": ["jobs", "careers", "health", "services"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.sba.gov/funding-programs/loans",
+    "tags": ["services", "finance"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.sba.gov/funding-programs/loans/coronavirus-relief-options/paycheck-protection-program-ppp",
+    "tags": ["services", "finance"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/site/sbs/businesses/covid19-business-outreach.page",
+    "tags": ["services", "finance"]
+  },
+  {
+    "category": "Services",
+    "website": "https://money.com/stimulus-check-advance-tax-refund",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Services",
+    "website": "https://disasterloan.sba.gov/ela",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.nycommunitytrust.org/covid19/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://docs.google.com/forms/d/e/1FAIpQLSfXg4r7c4NtJZGHZupG9pYebzxc6erHuJy3-kECAPxc14T9jQ/viewform",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www1.nyc.gov/site/doh/covid/covid-19-businesses-and-facilities.page",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://esd.ny.gov/new-york-state-surety-bond-assistance-program",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.nycgo.com/coronavirus-information-and-resources-for-travelers/",
+    "tags": ["services", "health", "business", "travel", "tourism"]
+  },
+  {
+    "category": "Business",
+    "website": "https://coalition.nycgo.com/",
+    "tags": ["services", "health", "business", "travel", "tourism"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.citizensnyc.org/covid-19-news",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.lisc.org/covid-19/small-business-assistance/small-business-relief-grants/sams-club-grant/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.lisc.org/covid-19/small-business-assistance/small-business-relief-grants/verizon-small-business-recovery-fund/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.sba.gov/funding-programs/disaster-assistance",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.sba.gov/document/support--express-bridge-loan-pilot-program-guide",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://savesmallbusiness.com/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://hispanicfederation.org/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.legalservicesnyc.org/get-involved/giving/client-emergency-relief-fund",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www1.nyc.gov/site/dca/consumers/get-free-financial-counseling.page/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://renaissance-ny.org/emergency-small-business-relief-loan-fund/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://grants.ureeka.biz/salesforce?eid=ss-esmb-or",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://businessforall.helloalice.com/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.globalgiving.org/redbackpackfund/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.sheamoisturefund.com/apply-1",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://home.treasury.gov/policy-issues/cares",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www1.nyc.gov/nycbusiness/article/nyc-employee-retention-grant-program",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://groundswellfund.org/rapid-response-fund/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://ofwemergencyfund.org/help",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://coregives.org/covid-19/",
+    "tags": ["services", "finance", "business", "children"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.robinhood.org/relief-fund-application/index.html",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.bluevine.com/",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.kabbage.com/",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://home.treasury.gov/system/files/136/PPP-Forgiveness-Application-3508EZ.pdf",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://hcr.ny.gov/NYForwardLoan",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.glossier.com/blog/grants",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://supermaker.com/p/entrepreneurial-dream-project",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.lisc.org/covid-19/small-business-assistance/small-business-relief-grants/lowes/",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.sba.gov/funding-programs/loans/coronavirus-relief-options/economic-injury-disaster-loan-emergency-advance",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://esd.ny.gov/nyforwardloans-info",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://cityparksfoundation.org/nyc-green-fund/",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.cjifund.org/apply-for-grants",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.facebook.com/business/boost/grants",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.kiva.org/blog/support-local-businesses-during-the-coronavirus-pandemic",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://mainvest.com/main-street-initiative",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://wes.smapply.io/prog/opportunity_challenge/",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://voicesforhealthykids.org/campaign-resources/grants",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://urgentactionfund.org/apply-for-a-grant/",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://brooklyncommunityfoundation.org/COVID-19-Grants",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://groundswellfund.org/rapid-response-fund/",
+    "tags": ["services", "finance", "business", "grant"]
+  },
+  {
+    "category": "Business",
+    "website": "https://hispanicfederation.org/resources/hf_emergency_assistance_fund_for_latino_nonprofits/",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://ioby.org/covid-19",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.ggmnonprofitconsulting.com/news/2020/3/12/leading-your-nonprofit-in-a-time-of-pandemic",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.sba.gov/funding-programs/loans/coronavirus-relief-options",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://nybcna.org",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.sba.gov/funding-programs/loans/coronavirus-relief-options/paycheck-protection-program-ppp",
+    "tags": ["services", "finance"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.usbgfoundation.org/beap",
+    "tags": ["services", "finance"]
+  },
+  {
+    "category": "Business",
+    "website": "https://form.southernsmoke.org/smoke/application/",
+    "tags": ["services", "finance", "services"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www1.nyc.gov/html/dot/html/pedestrians/openrestaurants.shtml",
+    "tags": [ "health", "services", "food"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www1.nyc.gov/html/dot/html/pedestrians/openrestaurants-faq.shtml",
+    "tags": [ "health", "services", "food"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://www1.nyc.gov/site/doitt/about/covid-19/engagement-portal.page",
+    "tags": ["jobs", "careers", "health", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://bachrachgroup.com/covid-19-jobs/",
+    "tags": ["jobs", "careers", "health", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://www1.nyc.gov/site/sbs/careers/virtual-wf1cc.page",
+    "tags": ["jobs", "careers", "health", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://www1.nyc.gov/site/dca/workers/workersrights/file-workplace-complaint.page",
+    "tags": ["jobs", "careers", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://labor.ny.gov/ui/dande/sharedwork1.shtm",
+    "tags": ["jobs", "careers", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://bronxarts.org/opportunities/covid19resources/",
+    "tags": ["jobs", "careers", "services", "art"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://www1.nyc.gov/site/dca/workers/workersrights/file-workplace-complaint.page",
+    "tags": ["jobs", "careers", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://labor.ny.gov/ui/cares-act.shtm",
+    "tags": ["jobs", "careers", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://dol.ny.gov/unemployment/unemployment-insurance-assistance",
+    "tags": ["jobs", "careers", "services"]
+  },
+  {
+    "category": "Careers",
+    "website": "https://labor.ny.gov/workerprotection/laborstandards/coronavirus-complaints.shtm",
+    "tags": ["jobs", "careers", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www1.nyc.gov/site/doh/covid/covid-19-prevention-and-care-page",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://covidtracking.com/",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.newsguardtech.com/coronavirus-misinformation-tracking-center/",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Services",
+    "website": "https://unitedwaynyc.org/resources/domestic-violence/",
+    "tags": ["services", "school", "health"]
+  },
+  {
+    "category": "Services",
+    "website": "https://ofwemergencyfund.org/help",
+    "tags": ["services", "business", "career"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www.equalitylabs.org/covid19guide",
+    "tags": ["services", "business", "career"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/site/hra/help/domestic-violence-support.page",
+    "tags": ["services", "school", "health", "housing"]
+  },
+  {
+    "category": "Health",
+    "website": "https://nycwell.cityofnewyork.us/en",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.nychealthandhospitals.org",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.nypcc.org",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.cdc.gov/coronavirus/2019-ncov/php/open-america/contact-tracing-resources.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fphp%2Fopen-america%2Fcontact-tracing.html",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://nybc.org",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www.nychealthandhospitals.org/test-and-trace",
+    "tags": ["health", "services"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://www1.nyc.gov/site/doh/covid/covid-19-main.page",
+    "tags": ["housing", "justice", "tenants"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://www.cdc.gov/coronavirus/2019-ncov/community/shared-congregate-house/guidance-shared-congregate-housing.html",
+    "tags": ["housing", "justice", "tenants"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://www1.nyc.gov/site/hra/help/homebase.page",
+    "tags": ["housing", "justice", "tenants"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://access.nyc.gov/programs/cooling-assistance-benefit/",
+    "tags": ["housing", "service", "finance", "tenants"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://nychajournal.nyc/covid-19-updates-related-to-nycha-property-management-offices/",
+    "tags": ["housing", "justice", "tenants"]
+  },
+  {
+    "category": "Housing",
+    "website": "https://nychajournal.nyc/covid-19-updates-related-to-nycha-property-management-offices/https://www1.nyc.gov/site/helpnownyc/get-help/covid-19-hotel-program.page",
+    "tags": ["housing", "hotel", "service"]
+  },
+  {
+    "category": "Services",
+    "website": "https://nychajournal.nyc/covid-19-updates-related-to-nycha-property-management-offices/https://www1.nyc.gov/site/helpnownyc/get-help/covid-19-hotel-program.page",
+    "tags": ["housing", "justice", "services"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/site/mopd/index.page",
+    "tags": ["services", "food", "school", "health", "housing"]
+  },
+  {
+    "category": "Immigrant",
+    "website": "https://www1.nyc.gov/site/immigrants/help/city-services/resources-for-immigrant-communities-during-covid-19-pandemic.page",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
+  },
+  {
+    "category": "Services",
+    "website": "https://www1.nyc.gov/site/dycd/services/jobs-internships/summer-youth-employment-program-syep.page",
+    "tags": ["services", "school", "health"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.everyaction.com/resources/covid-19",
+    "tags": ["business", "services", "finance"]
+  },
+  {
+    "category": "Arts",
+    "website": "https://www.foundationforcontemporaryarts.org/grants/emergency-grants",
+    "tags": ["business", "services", "finance", "arts"]
+  },
+  {
+    "category": "Arts",
+    "website": "https://www.iloveny.com/",
+    "tags": ["parks", "services", "finance", "arts"]
+  },
+  {
+    "category": "Arts",
+    "website": "https://covid19freelanceartistresource.wordpress.com/",
+    "tags": ["business", "services", "finance", "arts"]
+  },
+  {
+    "category": "Arts",
+    "website": "https://www.nycgo.com/virtual-nyc/",
+    "tags": ["business", "services", "arts"]
+  },
+  {
+    "category": "Arts",
+    "website": "https://performingartsreadiness.org/sample-emergency-plans/",
+    "tags": ["business", "services", "finance", "arts"]
+  },
+  {
+    "category": "Arts",
+    "website": "https://brooklynartscouncilblog.org/",
+    "tags": ["business", "services", "finance", "arts"]
+  },
+  {
+    "category": "Arts",
+    "website": "https://howlround.com/happenings/artists-time-global-pandemic-asl-captioned",
+    "tags": ["business", "services", "finance", "arts"]
+  },
+  {
+    "category": "Bicycle",
+    "website": "https://www.citibikenyc.com/critical-workforce-membership-press-release",
+    "tags": ["services", "bicycle", "health", "bikeshare"]
+  },
+  {
+    "category": "Business",
+    "website": "https://www.citibikenyc.com/community-programs/grants",
+    "tags": ["services", "bicycle", "health", "bikeshare"]
+  },
+  {
+    "category": "Health",
+    "website": "https://www1.nyc.gov/site/veterans/get-help/get-help.page",
+    "tags": ["health", "services", "veterans", "va"]
+  },
+  {
+    "category": "Immigrant",
+    "website": "https://www.safehorizon.org/safechat/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigration"]
+  },
+  {
+    "category": "Immigrant",
+    "website": "https://protectingimmigrantfamilies.org/know-your-rights/",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigration"]
+  },
+  {
+    "website": "https://comptroller.nyc.gov/services/for-the-public/diversity-initiatives/mwbe-university/",
+    "title": "M/WBE University : Office of the New York City Comptroller Scott M. Stringer",
+    "description": "Comptroller’s M/WBE University is a series of workshops designed to increase access to the Comptroller’s Office and citywide opportunities for M/WBEs.",
+    "extImg": "https://comptroller.nyc.gov/wp-content/themes/comptroller_theme/images/mwbe/mwbe-u_logo.png",
+    "category": "Services",
+    "tags": ["services", "finance"]
+  },
+  {
+    "website": "https://www.finance.senate.gov/imo/media/doc/Section-by-Section%20Coronavirus%20Tax%20Relief%20Measures.pdf",
+    "title": "– RELIEF FOR INDIVIDUALS, FAMILIES, AND BUSINESSES",
+    "description": "PDF",
+    "extImg": "",
+    "category": "Services",
+    "tags": ["services", "finance"]
+  },
+  {
+    "website": "https://my2020census.gov",
+    "title": "Welcome to the 2020 Census",
+    "description": "The 2020 Census questionnaire",
+    "extImg": "",
+    "category": "Services",
+    "tags": ["census", "services"]
+  },
+  {
+    "website": "https://new.mta.info/precautions-against-coronavirus",
+    "title": "MTA Essential Service During the Coronavirus Pandemic",
+    "description": "Operating MTA Essential Service during the COVID-19 pandemic",
+    "extImg": "",
+    "category": "Transportation",
+    "tags": ["mta", "services", "transportation"]
+  },
+  {
+    "website": "https://new.mta.info/coronavirus",
+    "category": "Transportation",
+    "tags": ["mta", "services", "transportation"]
+  },
+  {
+    "website": "https://www.siferry.com/",
+    "category": "Transportation",
+    "tags": ["mta", "services", "transportation"]
+  },
+  {
+    "website": "https://www.ferry.nyc/",
+    "category": "Transportation",
+    "tags": ["mta", "services", "transportation"]
+  },
+  {
+    "website": "https://www1.nyc.gov/html/dot/html/bicyclists/bikemaps.shtml",
+    "title": "DOT New York City Bike Map",
+    "description": "Looking for a copy of the NYC Bike Map? Visit a local NYC bicycle shop! Free copies are available at most shops, citywide, as well as at many libraries and community centers.",
+    "extImg": "https://www1.nyc.gov/html/dot/images/bicyclists/bikemap-cover-2020.jpg",
+    "category": "Bicycle",
+    "tags": ["health", "bicycle", "transportation"]
+  },
+  {
+    "website": "https://www1.nyc.gov/html/dot/html/bicyclists/bike-corrals.shtml",
+    "title": "BikeCorrals",
+    "description": "BikeCorrals are bike racks installed in the curbside lane of the street instead of on the sidewalk. This design is a great solution for places where demand for bicycle parking exceeds the available sidewalk space. Anyone can request a BikeCorral but every corral needs a maintenance partner to keep the BikeCorral clear of snow and debris.",
+    "extImg": "https://www1.nyc.gov/html/dot/images/bicyclists/bicycleparking-corral.jpg",
+    "category": "Bicycle",
+    "tags": ["health", "bicycle", "transportation"]
+  },
+  {
+    "website": "https://www.myhealth.va.gov/mhv-portal-web/home",
+    "title": "My HealtheVet",
+    "description": "My HealtheVet the VA’s online patient portal, where Veterans can ask non-urgent questions to their VA healthcare team, schedule appointments for VA Video Connect, and fill prescriptions. ",
+    "extImg": "",
+    "category": "Health",
+    "tags": ["health", "services", "veterans", "va"]
+  },
+  {
+    "website": "https://smallbusiness.withgoogle.com/news/resources-for-smbs-impacted-by-coronavirus/",
+    "title": "Helping your business through COVID-19",
+    "description": "We know this is a difficult time for people everywhere, including small business owners. We want to help. We’ve gathered some useful resources to help your business navigate these challenging times.",
+    "extImg": "https://lh3.googleusercontent.com/2h50w9FPvpTz3ubHTK8-IUv9L2XYtqMsUzBOUTgd4rx66LaKYs1DuAUOZyOTLfnFmFR-xZpuFsLD3NQ2NGg26bzPRIfyFo9m3B5KTw=-w396-rwu",
+    "category": "Business",
+    "tags": ["business", "services", "finance"]
+  },
+  {
+    "website": "https://events.withgoogle.com/growonair/",
+    "title": "Learn more with Grow with Google OnAir",
+    "description": "Grow your digital skills, no matter where you’re located. Through online workshops and virtual one-on-one coaching sessions, you can learn skills that can help you stay connected and productive while working or managing a business remotely.",
+    "extImg": "",
+    "category": "Business",
+    "tags": ["business", "services", "finance"]
+  },
+  {
+    "title": "NYC COVID-19 Engagement Portal",
+    "description": "The City of New York is collecting information to better understand and communicate about the impacts of the 2019 Novel Coronavirus (COVID-19). This information will be helpful in enabling the City to share information with you and members of the public about COVID-19, and to help inform the City’s response to areas affected by COVID-19.",
+    "extImg": "",
+    "category": "Food",
+    "website": "https://cv19engagementportal.cityofnewyork.us",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "title": "COVID-19 Food Assistance Resources",
+    "description": "During the COVID-19 public health crisis, New York City is taking steps to make sure every New Yorker has access to the food they need.",
+    "extImg": "",
+    "category": "Food",
+    "website": "https://www1.nyc.gov/assets/dsny/contact/services/COVID-19FoodAssistance.shtml",
+    "tags": ["food", "nutrition"]
+  },
+  {
+    "title": "NYC Family Justice Centers",
+    "description": "NYC HOPE can connect you to resources to help you or a loved one experiencing dating, domestic, or gender-based violence.",
+    "extImg": "https://www1.nyc.gov/assets/nychope/images/content/nyc-hope/heroes/home-hero.jpg",
+    "category": "Immigrant",
+    "website": "https://www1.nyc.gov/nychope/site/page/home",
+    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigration"]
+  },
+  {
+    "title": "Coronavirus (COVID-19)",
+    "description": "SBA Disaster Assistance in Response to the Coronavirus",
+    "extImg": "",
+    "category": "Services",
+    "website": "https://sba.gov/disaster-assistance/coronavirus-covid-19",
+    "tags": ["services", "finance", "business"]
+  },
+  {
+    "title": "Governor Cuomo Issues Guidance on Essential Services Under The 'New York State on PAUSE' Executive Order",
+    "description": "Earlier today, Governor Andrew M. Cuomo announced he is signing the 'New York State on PAUSE' executive order, a 10-point policy to assure uniform safety for everyone. It includes a new directive that all non-essential businesses statewide must close in-office personnel functions effective at 8PM on Sunday, March 22.",
+    "extImg": "",
+    "category": "Services",
+    "website": "https://www.governor.ny.gov/news/governor-cuomo-issues-guidance-essential-services-under-new-york-state-pause-executive-order",
+    "tags": ["services", "food", "school", "health", "businesses"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.naacpldf.org/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.nationalcouncil.us/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.splcenter.org/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.sentencingproject.org/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://famm.org/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://eji.org/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "http://d4bl.org/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.joincampaignzero.org/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://invisible.institute/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://policingequity.org/",
+    "tags": ["blm", "black community", "support"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "http://www.code2040.org/mission",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://bit.ly/ANTIRACISMRESOURCES",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.adl.org/education/resources/tools-and-strategies/george-floyd-racism-and-law-enforcement-in-english-and-en",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.pbs.org/parents/talking-about-racism",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.blackvisionsmn.org/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.reclaimtheblock.org/home",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.mpd150.com/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://m4bl.org/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://harlem.capital/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "http://bit.ly/fundthecommunity",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://docs.google.com/spreadsheets/d/1hmu7sRFkCjKr5UbWm1aKUwQFJ1vlQn1KYvfCY6RG7go/edit#gid=0",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://docs.google.com/spreadsheets/d/1OZx-_tm3PPyx6-ZJAST1xxOJRfn7KfYDjDT6JedrTfs/htmlview?pru=AAABcpuz7so*fuLTm_36Ttr0xCAoo32M6A#",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://blog.fracturedatlas.org/resources-for-white-people-to-learn-and-talk-about-race-and-racism-5b207fff4fc7",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.antiracismproject.org/resources",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://time.com/5846732/books-to-read-about-anti-racism/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://bit.ly/BlackLivesAction",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.mother.ly/child/how-to-raise-anti-racist-kids",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://docs.google.com/presentation/d/19d2SDI4yEbkSyPnFqHNwcc7TAb_4PaVEza3FprS_2Nk/edit",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.diversifytech.co/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.thebalance.com/give-money-safely-charity-4846803",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.wetheprotesters.org/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.theroot.com/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.stitcher.com/podcast/the-appeal/justice-in-america",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://docs.google.com/spreadsheets/d/1LHBfN_ceCMgBNYRMvFv_vw2NL8s72LRSUd9TYfIwZ24/edit?ts=5ed7fb07#gid=552121555",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.cthnyc.org/anti-racism/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://blackfutureslab.org/",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  },
+  {
+    "category": "Black Lives Matter",
+    "website": "https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx",
+    "tags": ["blm", "black community", "support", "mobilize"]
+  }
+
+]
