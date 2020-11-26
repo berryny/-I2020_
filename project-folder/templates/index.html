@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% block title %}Home Page{% endblock %}
 {% block content %}
-  <h1>Home Page</h1>
-  <p>Welcome to the class project folder</p>
+  <h1>Website Previews</h1>
+  <p>Select a category</p>
+  <ul>
+    {% for cat in catgData: %}
+      <li><a href="/category/{{cat.lower()}}">{{cat}}</a></li>
+    {% endfor %}
+  </ul>
+
 {% endblock %}

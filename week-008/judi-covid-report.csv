@@ -1,414 +1,420 @@
 ,Flag,Location,Cases,Deaths,Recov.,"Ref.
 ",Death Rate,Recovery Rate
-0,//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Emojione_1F310.svg/15px-Emojione_1F310.svg.png,World,"50,801,471
-","1,262,199
-","33,232,864
-",,2.48,65
-1,//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png,United States,"10,174,409","241,708","5,769,224",[9],2.38,57
+0,//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Emojione_1F310.svg/15px-Emojione_1F310.svg.png,World,"58,615,834
+","1,387,179
+","37,477,986
+",,0.0,0
+1,//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png,United States,"12,301,186","260,402","6,241,822",[9],2.12,51
 2,//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-Flag_of_India.svg.png,"India
-","8,553,657","126,611","7,917,373",[10],1.48,93
+","9,095,806","133,227","8,521,617",[10],1.46,94
 3,//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png,"Brazil
-","5,675,766","162,638","5,064,344",[11][12],2.87,89
-4,//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png,France,"1,807,479","40,987",None,[13][14],0.0,0
-5,//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png,Russia,"1,796,132","30,793","1,335,141",[15],1.71,74
-6,//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png,Spain,"1,381,218","39,345",None,[16],0.0,0
-7,//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/23px-Flag_of_Argentina.svg.png,Argentina,"1,250,486","33,907","1,073,564",[18],2.71,86
-8,//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png,United Kingdom,"1,213,363","49,238",None,[20],0.0,0
-9,//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/23px-Flag_of_Colombia.svg.png,"Colombia
-","1,149,063","32,974","1,047,017",[21],2.87,91
-10,//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/23px-Flag_of_Mexico.svg.png,"Mexico
-","972,785","95,225","721,076",[22],9.79,74
-11,//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png,"Italy
-","960,373","41,750","345,289",[23],4.35,36
+","6,071,401","169,197","5,432,505",[11][12],2.79,89
+4,//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png,France,"2,140,208","48,732","151,681",[13][14],2.28,7
+5,//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png,Russia,"2,089,329","36,179","1,595,443",[15],1.73,76
+6,//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png,Spain,"1,556,730","42,619",None,[16],0.0,0
+7,//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png,United Kingdom,"1,512,045","55,024",None,[18],0.0,0
+8,//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png,"Italy
+","1,408,868","49,823","553,098",[19],3.54,39
+9,//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/23px-Flag_of_Argentina.svg.png,Argentina,"1,370,353","37,002","1,195,479",[21],2.7,87
+10,//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/23px-Flag_of_Colombia.svg.png,"Colombia
+","1,248,417","35,287","1,150,932",[22],2.83,92
+11,//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/23px-Flag_of_Mexico.svg.png,"Mexico
+","1,041,875","101,676","779,104",[23],9.76,75
 12,//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/23px-Flag_of_Peru.svg.png,"Peru
-","923,527","34,943","848,346",[24][25],3.78,92
-13,//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/23px-Flag_of_South_Africa.svg.png,"South Africa
-","738,525","19,845","680,726",[26][27],2.69,92
-14,//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png,"Iran
-","692,949","38,749","525,641",[28],5.59,76
-15,//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png,Germany,"687,599","11,639","429,547",[30][29],1.69,62
-16,//upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png,"Poland
-","568,138","8,045","219,371",[31],1.42,39
-17,//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/23px-Flag_of_Chile.svg.png,Chile,"522,879","14,588","498,904",[35],2.79,95
-18,//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/23px-Flag_of_Iraq.svg.png,"Iraq
-","501,733","11,380","432,233",[36],2.27,86
-19,//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png,Belgium,"500,789","13,055",None,[38][39],0.0,0
-20,//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png,Ukraine,"469,018","8,565","209,143",[40][41],1.83,45
+","949,670","35,595","879,439",[24][25],3.75,93
+13,//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png,Germany,"932,111","14,343","603,729",[27][26],1.54,65
+14,//upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png,"Poland
+","861,331","13,618","423,971",[28],1.58,49
+15,//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/23px-Flag_of_Iran.svg.png,"Iran
+","854,361","44,802","603,445",[29],5.24,71
+16,//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/23px-Flag_of_South_Africa.svg.png,"South Africa
+","767,679","20,903","710,099",[30][31],2.72,92
+17,//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png,Ukraine,"635,689","11,075","291,060",[32][33],1.74,46
+18,//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png,Belgium,"556,904","15,522",None,[35][36],0.0,0
+19,//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/23px-Flag_of_Chile.svg.png,Chile,"540,640","15,069","516,121",[40],2.79,95
+20,//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/23px-Flag_of_Iraq.svg.png,"Iraq
+","535,321","11,958","465,452",[41],2.23,87
 21,//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/23px-Flag_of_Indonesia.svg.png,"Indonesia
-","440,569","14,689","372,266",[42],3.33,84
-22,//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/23px-Flag_of_Bangladesh.svg.png,"Bangladesh
-","421,921","6,092","339,768",[43][44],1.44,81
-23,//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png,"Czech Republic
-","417,181","5,028","244,005",[45],1.21,58
-24,//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png,Netherlands,"414,745","8,043",None,[47][48],0.0,0
-25,//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/23px-Flag_of_the_Philippines.svg.png,"Philippines
-","398,449","7,647","361,784",[49][50],1.92,91
-26,//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/23px-Flag_of_Turkey.svg.png,Turkey,"396,831","10,972","340,286",[52],2.76,86
-27,//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/23px-Flag_of_Saudi_Arabia.svg.png,"Saudi Arabia
-","350,984","5,559","337,788",[53],1.58,96
+","497,668","15,884","418,188",[42],3.19,84
+22,//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png,"Czech Republic
+","492,263","7,196","398,101",[43],1.46,81
+23,//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png,Netherlands,"484,648","8,891",None,[45][46],0.0,0
+24,//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/23px-Flag_of_Bangladesh.svg.png,"Bangladesh
+","447,341","6,388","362,428",[47][48],1.43,81
+25,//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/23px-Flag_of_Turkey.svg.png,Turkey,"446,822","12,358","374,637",[50],2.77,84
+26,//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/23px-Flag_of_the_Philippines.svg.png,"Philippines
+","418,818","8,123","386,486",[51][52],1.94,92
+27,//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png,"Romania
+","418,645","10,047","295,148",[53][54],2.4,71
 28,//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/23px-Flag_of_Pakistan.svg.png,"Pakistan
-","344,839","6,977","318,881",[54],2.02,92
-29,//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/21px-Flag_of_Israel.svg.png,Israel,"319,784","2,676","309,163",[55],0.84,97
-30,//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png,"Romania
-","306,991","8,009","206,793",[56][57],2.61,67
-31,//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/23px-Flag_of_Canada_%28Pantone%29.svg.png,Canada,"266,891","10,552","216,845",[60],3.95,81
-32,//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/23px-Flag_of_Morocco.svg.png,Morocco,"259,951","4,356","212,905",[61],1.68,82
-33,//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/15px-Flag_of_Switzerland.svg.png,Switzerland,"229,222","2,576","114,700",[62][63],1.12,50
-34,//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/14px-Flag_of_Nepal.svg.png,"Nepal
-","197,024","1,126","159,724",[64],0.57,81
-35,//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/23px-Flag_of_Portugal.svg.png,"Portugal
-","183,420","2,959","102,083",[65][66],1.61,56
-36,//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/23px-Flag_of_Ecuador.svg.png,"Ecuador
-","175,269","12,839","154,956",[67][68],7.33,88
-37,//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/23px-Flag_of_Austria.svg.png,"Austria
-","158,746","1,454","94,627",[69],0.92,60
-38,//upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/23px-Flag_of_Sweden.svg.png,"Sweden
-","146,461","6,022",None,[70],0.0,0
-39,//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/23px-Flag_of_the_United_Arab_Emirates.svg.png,"United Arab Emirates
-","143,289",515,"138,959",[71],0.36,97
-40,//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/22px-Flag_of_Bolivia.svg.png,"Bolivia
-","142,475","8,795","114,466",[72],6.17,80
+","376,929","7,696","330,885",[55],2.04,88
+29,//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/23px-Flag_of_Saudi_Arabia.svg.png,"Saudi Arabia
+","355,258","5,780","343,371",[56],1.63,97
+30,//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/21px-Flag_of_Israel.svg.png,Israel,"328,918","2,799","317,887",[60],0.85,97
+31,//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/23px-Flag_of_Morocco.svg.png,Morocco,"324,941","5,316","270,457",[61],1.64,83
+32,//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/15px-Flag_of_Switzerland.svg.png,Switzerland,"290,601","3,575","182,300",[62][63],1.23,63
+33,//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/23px-Flag_of_Portugal.svg.png,"Portugal
+","260,758","3,897","172,919",[64][65],1.49,66
+34,//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/23px-Flag_of_Austria.svg.png,"Austria
+","247,188","2,388","169,260",[66],0.97,68
+35,//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/14px-Flag_of_Nepal.svg.png,"Nepal
+","220,308","1,321","199,024",[67],0.6,90
+36,//upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/23px-Flag_of_Sweden.svg.png,"Sweden
+","208,295","6,406",None,[68],0.0,0
+37,//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/23px-Flag_of_Ecuador.svg.png,"Ecuador
+","185,643","13,201","164,009",[69][70],7.11,88
+38,//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/23px-Flag_of_Jordan.svg.png,"Jordan
+","183,429","2,236","114,018",[71],1.22,62
+39,//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png,"Hungary
+","174,618","3,800","42,915",[72],2.18,25
+40,//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/23px-Flag_of_the_United_Arab_Emirates.svg.png,"United Arab Emirates
+","158,990",552,"148,871",[73],0.35,94
 41,//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/23px-Flag_of_Panama.svg.png,"Panama
-","140,331","2,808","118,711",[73],2.0,85
-42,//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/23px-Flag_of_Qatar.svg.png,"Qatar
-","134,443",232,"131,430",[74],0.17,98
+","154,783","2,957","135,962",[74],1.91,88
+42,//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/22px-Flag_of_Bolivia.svg.png,"Bolivia
+","143,978","8,907","119,338",[75],6.19,83
 43,//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/23px-Flag_of_Kuwait.svg.png,"Kuwait
-","132,478",816,"123,314",[75],0.62,93
+","140,056",866,"132,178",[76],0.62,94
 44,//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/23px-Flag_of_the_Dominican_Republic.svg.png,"Dominican Republic
-","130,603","2,267","108,383",[76],1.74,83
-45,//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/23px-Flag_of_Oman.svg.png,"Oman
-","118,503","1,310","108,968",[77][78],1.11,92
-46,//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/23px-Flag_of_Costa_Rica.svg.png,"Costa Rica
-","117,587","1,491","72,249",[79],1.27,61
-47,//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/23px-Flag_of_Kazakhstan.svg.png,"Kazakhstan
-","116,772","1,857","107,843",[80][81],1.59,92
-48,//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/23px-Flag_of_Jordan.svg.png,"Jordan
-","114,986","1,295",None,[82],0.0,0
-49,//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png,"Hungary
-","114,778","2,493","26,161",[83],2.17,23
-50,//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/23px-Flag_of_Guatemala.svg.png,"Guatemala
-","111,360","3,823","101,478",[84],3.43,91
-51,//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/23px-Flag_of_Egypt.svg.png,Egypt,"109,422","6,380","100,439",[85],5.83,92
-52,//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/23px-Flag_of_Japan.svg.png,Japan,"108,084","1,818","97,654",[86],1.68,90
-53,//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/23px-Flag_of_Armenia.svg.png,"Armenia
-","107,466","1,580","64,910",[87],1.47,60
-54,//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/23px-Flag_of_Belarus.svg.png,"Belarus
-","107,262","1,011","91,353",[88],0.94,85
-55,//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Honduras_%282008_Olympics%29.svg/23px-Flag_of_Honduras_%282008_Olympics%29.svg.png,"Honduras
-","100,508","2,751","42,959",[89][90],2.74,43
-56,//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/23px-Flag_of_Ethiopia.svg.png,"Ethiopia
-","99,982","1,530","60,710",[91][92],1.53,61
-57,//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/23px-Flag_of_Lebanon.svg.png,"Lebanon
-","95,355",732,"51,728",[93],0.77,54
-58,//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/23px-Flag_of_Venezuela.svg.png,"Venezuela
-","94,883",826,"89,755",[94],0.87,95
-59,//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png,China,"86,267","4,634","81,207",[95],5.37,94
-60,//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/23px-Flag_of_Bahrain.svg.png,"Bahrain
-","83,632",329,"81,225",[96],0.39,97
-61,//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/23px-Flag_of_Moldova.svg.png,Moldova,"82,677","1,912","63,646",[97],2.31,77
-62,//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/23px-Flag_of_Slovakia.svg.png,"Slovakia
-","76,072",366,"19,757",[98],0.48,26
-63,//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/23px-Flag_of_Bulgaria.svg.png,"Bulgaria
-","75,160","1,665","24,408",[99][100],2.22,32
-64,//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/23px-Flag_of_Tunisia.svg.png,"Tunisia
-","71,569","1,920","48,103",[101],2.68,67
-65,//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/23px-Flag_of_Libya.svg.png,"Libya
-","69,040",944,"40,780",[102][103],1.37,59
-66,//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/23px-Flag_of_Uzbekistan.svg.png,"Uzbekistan
-","68,879",586,"66,107",[104],0.85,96
-67,//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/23px-Flag_of_Croatia.svg.png,"Croatia
-","68,776",832,"53,002",[105],1.21,77
-68,//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/23px-Flag_of_Paraguay.svg.png,"Paraguay
-","67,948","1,502","48,437",[106],2.21,71
-69,//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png,Azerbaijan,"66,046",852,"49,411",[107],1.29,75
-70,//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/23px-Flag_of_Ireland.svg.png,"Ireland
-","65,659","1,948","24,000",[108],2.97,37
-71,//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/23px-Flag_of_Nigeria.svg.png,"Nigeria
-","64,184","1,158","60,069",[109],1.8,94
-72,//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/23px-Flag_of_Serbia.svg.png,Serbia,"64,065",901,None,[110],0.0,0
-73,//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/23px-Flag_of_Bosnia_and_Herzegovina.svg.png,"Bosnia and Herzegovina
-","63,419","1,583","31,222",[111],2.5,49
-74,//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/23px-Flag_of_Kyrgyzstan.svg.png,"Kyrgyzstan
-","63,390","1,182","54,358",[112],1.86,86
-75,//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/23px-Flag_of_Kenya.svg.png,"Kenya
-","63,244","1,130","42,659",[113],1.79,67
-76,//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/23px-Flag_of_Algeria.svg.png,"Algeria
-","62,693","2,062","42,325",[114][115],3.29,68
-77,//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/23px-Flag_of_Myanmar.svg.png,"Myanmar
-","61,975","1,437","46,661",[116],2.32,75
-78,//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/23px-Flag_of_Georgia.svg.png,Georgia,"60,680",499,"45,042",[117],0.82,74
-79,//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/23px-Flag_of_Palestine.svg.png,"Palestine
-","58,838",521,"50,877",[118],0.89,86
-80,//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/23px-Flag_of_Greece.svg.png,"Greece
-","58,187",825,None,[119],0.0,0
-81,//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/23px-Flag_of_Singapore.svg.png,"Singapore
-","58,064",28,"57,981",[120][121],0.05,100
-82,//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/20px-Flag_of_Denmark.svg.png,Denmark,"55,892",747,"41,232",[122][123],1.34,74
-83,//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/23px-Flag_of_Ghana.svg.png,"Ghana
-","49,202",320,"47,726",[124],0.65,97
-84,//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/23px-Flag_of_Slovenia.svg.png,"Slovenia
-","45,625",578,None,[125][126],0.0,0
-85,//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Afghanistan.svg/23px-Flag_of_Afghanistan.svg.png,"Afghanistan
-","42,297","1,574","34,721",[127],3.72,82
-86,//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/23px-Flag_of_Malaysia.svg.png,"Malaysia
-","41,181",294,"29,579",[128],0.71,72
-87,//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/23px-Flag_of_North_Macedonia.svg.png,"North Macedonia
-","40,275","1,156","24,229",[129][130],2.87,60
-88,//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/23px-Flag_of_Puerto_Rico.svg.png,"Puerto Rico
-","38,474",882,None,[131][132],0.0,0
+","138,410","2,310","112,552",[77],1.67,81
+45,//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/23px-Flag_of_Qatar.svg.png,"Qatar
+","137,229",236,"134,282",[78],0.17,98
+46,//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/23px-Flag_of_Japan.svg.png,Japan,"130,179","1,974","111,163",[79],1.52,85
+47,//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/23px-Flag_of_Costa_Rica.svg.png,"Costa Rica
+","129,418","1,608","79,372",[80],1.24,61
+48,//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/23px-Flag_of_Armenia.svg.png,"Armenia
+","126,224","1,952","94,090",[81],1.55,75
+49,//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/23px-Flag_of_Kazakhstan.svg.png,"Kazakhstan
+","125,466","1,945","112,292",[82][83],1.55,89
+50,//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/23px-Flag_of_Belarus.svg.png,"Belarus
+","123,999","1,096","103,848",[84],0.88,84
+51,//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/23px-Flag_of_Oman.svg.png,"Oman
+","122,081","1,380","113,269",[85][86],1.13,93
+52,//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/23px-Flag_of_Serbia.svg.png,Serbia,"121,120","1,199",None,[87],0.0,0
+53,//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/23px-Flag_of_Bulgaria.svg.png,"Bulgaria
+","120,697","2,820","35,752",[88][89],2.34,30
+54,//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/23px-Flag_of_Guatemala.svg.png,"Guatemala
+","118,629","4,076","107,413",[90],3.44,91
+55,//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/23px-Flag_of_Lebanon.svg.png,"Lebanon
+","116,476",900,"67,667",[91],0.77,58
+56,//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/23px-Flag_of_Egypt.svg.png,Egypt,"113,027","6,548","101,881",[92],5.79,90
+57,//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/23px-Flag_of_Ethiopia.svg.png,"Ethiopia
+","105,785","1,647","65,691",[93][94],1.56,62
+58,//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Honduras_%282008_Olympics%29.svg/23px-Flag_of_Honduras_%282008_Olympics%29.svg.png,"Honduras
+","104,915","2,859","46,475",[95][96],2.73,44
+59,//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/23px-Flag_of_Georgia.svg.png,Georgia,"104,732",976,"85,639",[97],0.93,82
+60,//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/23px-Flag_of_Croatia.svg.png,"Croatia
+","103,718","1,353","82,380",[98],1.3,79
+61,//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/23px-Flag_of_Venezuela.svg.png,"Venezuela
+","99,435",869,"94,355",[99],0.87,95
+62,//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/23px-Flag_of_Moldova.svg.png,Moldova,"97,941","2,147","79,556",[100],2.19,81
+63,//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/23px-Flag_of_Slovakia.svg.png,"Slovakia
+","96,241",671,"45,883",[101],0.7,48
+64,//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png,Azerbaijan,"93,094","1,131","63,841",[102],1.21,69
+65,//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/23px-Flag_of_Greece.svg.png,"Greece
+","91,619","1,630",None,[103],0.0,0
+66,//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/23px-Flag_of_Tunisia.svg.png,"Tunisia
+","88,711","2,821","62,249",[104],3.18,70
+67,//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png,China,"86,442","4,634","81,493",[105],5.36,94
+68,//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/23px-Flag_of_Bahrain.svg.png,"Bahrain
+","85,591",338,"83,617",[106],0.39,98
+69,//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/23px-Flag_of_Bosnia_and_Herzegovina.svg.png,"Bosnia and Herzegovina
+","80,006","2,276","44,416",[107],2.84,56
+70,//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/23px-Flag_of_Myanmar.svg.png,"Myanmar
+","79,246","1,739","58,758",[108],2.19,74
+71,//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/23px-Flag_of_Libya.svg.png,"Libya
+","77,823","1,089","48,914",[109][110],1.4,63
+72,//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/23px-Flag_of_Kenya.svg.png,"Kenya
+","77,372","1,380","51,507",[111],1.78,67
+73,//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/23px-Flag_of_Paraguay.svg.png,"Paraguay
+","76,476","1,657","54,491",[112],2.17,71
+74,//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/23px-Flag_of_Algeria.svg.png,"Algeria
+","74,862","2,272","48,794",[113][114],3.03,65
+75,//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/23px-Flag_of_Palestine.svg.png,"Palestine
+","71,644",636,"59,021",[115],0.89,82
+76,//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/23px-Flag_of_Uzbekistan.svg.png,"Uzbekistan
+","71,280",603,"68,525",[116],0.85,96
+77,//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/20px-Flag_of_Denmark.svg.png,Denmark,"70,485",784,"55,274",[117][118],1.11,78
+78,//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/23px-Flag_of_Ireland.svg.png,"Ireland
+","70,461","2,023","25,097",[119][120],2.87,36
+79,//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/23px-Flag_of_Kyrgyzstan.svg.png,"Kyrgyzstan
+","69,581","1,231","60,811",[121],1.77,87
+80,//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/23px-Flag_of_Nigeria.svg.png,"Nigeria
+","66,383","1,167","62,076",[122],1.76,94
+81,//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/23px-Flag_of_Slovenia.svg.png,"Slovenia
+","64,284","1,026",None,[123][124],0.0,0
+82,//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/23px-Flag_of_Singapore.svg.png,"Singapore
+","58,148",28,"58,064",[125],0.05,100
+83,//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/23px-Flag_of_Malaysia.svg.png,"Malaysia
+","54,775",335,"41,597",[126],0.61,76
+84,//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/23px-Flag_of_North_Macedonia.svg.png,"North Macedonia
+","54,743","1,511","32,366",[127][128],2.76,59
+85,//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/23px-Flag_of_Ghana.svg.png,"Ghana
+","50,717",323,"49,281",[129],0.64,97
+86,//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/23px-Flag_of_Lithuania.svg.png,"Lithuania
+","47,047",386,"10,945",[130][131],0.82,23
+87,//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/23px-Flag_of_Puerto_Rico.svg.png,"Puerto Rico
+","45,268","1,012",None,[132][133],0.0,0
+88,//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Afghanistan.svg/23px-Flag_of_Afghanistan.svg.png,"Afghanistan
+","44,771","1,695","35,942",[134],3.79,80
 89,//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/23px-Flag_of_El_Salvador.svg.png,"El Salvador
-","35,145","1,006","31,172",[133],2.86,89
-90,//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/23px-Flag_of_Australia_%28converted%29.svg.png,Australia,"27,668",907,"25,454",[134],3.28,92
-91,//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/23px-Flag_of_South_Korea.svg.png,"South Korea
-","27,653",485,"25,160",[135][136],1.75,91
-92,//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/23px-Flag_of_Lithuania.svg.png,"Lithuania
-","25,755",210,"5,813",[137][138],0.82,23
-93,//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/21px-Flag_of_Norway.svg.png,Norway,"24,975",285,"11,863",[141],1.14,47
-94,//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/21px-Flag_of_Kosovo.svg.png,"Kosovo
-","24,792",768,"16,226",[142],3.1,65
-95,//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/21px-Flag_of_Albania.svg.png,"Albania
-","24,731",571,"12,203",[143][144],2.31,49
-96,//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/23px-Flag_of_Montenegro.svg.png,"Montenegro
-","23,608",342,"16,089",[145],1.45,68
-97,//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/23px-Flag_of_Luxembourg.svg.png,"Luxembourg
-","23,227",193,"13,913",[146],0.83,60
-98,//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/23px-Flag_of_Cameroon.svg.png,"Cameroon
-","22,421",433,"20,510",[147][148],1.93,91
+","37,250","1,070","33,984",[135],2.87,91
+90,//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/21px-Flag_of_Kosovo.svg.png,"Kosovo
+","34,295",914,"21,043",[136],2.67,61
+91,//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/21px-Flag_of_Albania.svg.png,"Albania
+","32,761",699,"15,842",[137][138],2.13,48
+92,//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/21px-Flag_of_Norway.svg.png,Norway,"32,352",306,"20,956",[141],0.95,65
+93,//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/23px-Flag_of_Montenegro.svg.png,"Montenegro
+","31,062",439,"19,491",[142],1.41,63
+94,//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/23px-Flag_of_South_Korea.svg.png,"South Korea
+","31,004",509,"26,539",[143][144],1.64,86
+95,//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/23px-Flag_of_Luxembourg.svg.png,"Luxembourg
+","30,333",260,"20,014",[145],0.86,66
+96,//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/23px-Flag_of_Australia_%28converted%29.svg.png,Australia,"27,807",907,"25,338",[146],3.26,91
+97,//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/23px-Flag_of_Cameroon.svg.png,"Cameroon
+","22,692",433,"21,510",[147][148],1.91,95
+98,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/23px-Flag_of_Finland.svg.png,Finland,"21,216",375,"15,300",[151],1.77,72
 99,//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/23px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png,"Ivory Coast
-","20,835",126,"20,516",[149],0.6,98
-100,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/23px-Flag_of_Finland.svg.png,Finland,"17,887",362,"12,700",[152],2.02,71
-101,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/23px-Flag_of_Madagascar.svg.png,"Madagascar
-","17,223",249,"16,516",[153][154],1.45,96
+","21,126",129,"20,777",[152],0.61,98
+100,//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/23px-Flag_of_Sri_Lanka.svg.png,"Sri Lanka
+","20,171",87,"14,069",[153][154],0.43,70
+101,//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/23px-Flag_of_Uganda.svg.png,"Uganda
+","17,968",172,"8,611",[155][156],0.96,48
 102,//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/23px-Flag_of_Zambia.svg.png,"Zambia
-","16,971",349,"16,011",[155][156],2.06,94
-103,//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/23px-Flag_of_Senegal.svg.png,"Senegal
-","15,711",326,"15,349",[157],2.07,98
-104,//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/23px-Flag_of_Uganda.svg.png,"Uganda
-","14,574",133,"7,771",[158][159],0.91,53
-105,//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/23px-Flag_of_Sri_Lanka.svg.png,"Sri Lanka
-","14,285",35,"8,880",[160][161],0.25,62
-106,//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Donetsk_People%27s_Republic.svg/23px-Flag_of_Donetsk_People%27s_Republic.svg.png,Donetsk PR,"14,190",600,"3,517",[162][163],4.23,25
-107,//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/23px-Flag_of_Sudan.svg.png,"Sudan
-","14,155","1,116",9.492,[164][165],7.88,67
-108,//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/23px-Flag_of_Mozambique.svg.png,"Mozambique
-","13,823",99,"11,659",[166],0.72,84
-109,//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/23px-Flag_of_Namibia.svg.png,"Namibia
-","13,240",134,"11,620",[167],1.01,88
-110,//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/23px-Flag_of_Angola.svg.png,"Angola
-","12,680",308,"5,927",[168],2.43,47
-111,//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/23px-Flag_of_Guinea.svg.png,"Guinea
-","12,426",74,"10,829",[169][170],0.6,87
+","17,394",356,"16,659",[157][158],2.05,96
+103,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/23px-Flag_of_Madagascar.svg.png,"Madagascar
+","17,310",250,"16,592",[159],1.44,96
+104,//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/23px-Flag_of_Senegal.svg.png,"Senegal
+","15,865",330,"15,465",[160],2.08,97
+105,//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/23px-Flag_of_Sudan.svg.png,"Sudan
+","15,839","1,193","9,727",[161][162],7.53,61
+106,//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/23px-Flag_of_Mozambique.svg.png,"Mozambique
+","15,037",124,"13,151",[163],0.82,87
+107,//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/23px-Flag_of_Angola.svg.png,"Angola
+","14,413",336,"7,273",[164],2.33,50
+108,//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/23px-Flag_of_Namibia.svg.png,"Namibia
+","13,811",145,"13,209",[165],1.05,96
+109,//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_French_Polynesia.svg/23px-Flag_of_French_Polynesia.svg.png,"French Polynesia
+","12,978",63,"5,167",[166][167],0.49,40
+110,//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/23px-Flag_of_Guinea.svg.png,"Guinea
+","12,798",75,"11,821",[168][169],0.59,92
+111,//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/23px-Flag_of_Latvia.svg.png,"Latvia
+","12,744",153,"1,557",[170],1.2,12
 112,//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/23px-Flag_of_Maldives.svg.png,"Maldives
-","12,009",40,"11,132",[171],0.33,93
-113,//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png,DR Congo,"11,591",316,"10,838",[172],2.73,94
+","12,608",46,"11,599",[171],0.36,92
+113,//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/20px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png,DR Congo,"12,180",327,"11,300",[172],2.68,93
 114,//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/23px-Flag_of_Tajikistan.svg.png,"Tajikistan
-","11,376",83,"10,711",[173],0.73,94
-115,//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_French_Polynesia.svg/23px-Flag_of_French_Polynesia.svg.png,"French Polynesia
-","9,995",39,"4,842",[174][175],0.39,48
-116,//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/23px-Flag_of_Jamaica.svg.png,"Jamaica
-","9,542",221,"4,952",[176][177],2.32,52
-117,//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/23px-Flag_of_Cape_Verde.svg.png,"Cape Verde
-","9,369",100,"8,465",[178],1.07,90
-118,//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/23px-Flag_of_Haiti.svg.png,"Haiti
-","9,127",232,"7,618",[179],2.54,83
-119,//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/20px-Flag_of_Gabon.svg.png,"Gabon
-","9,029",57,"8,899",[180],0.63,99
+","11,854",86,"11,229",[173],0.73,95
+115,//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/23px-Flag_of_Jamaica.svg.png,"Jamaica
+","10,240",237,"5,481",[174][175],2.31,54
+116,//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/23px-Flag_of_Cape_Verde.svg.png,"Cape Verde
+","10,234",104,"9,649",[176],1.02,94
+117,//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Donetsk_People%27s_Republic.svg/23px-Flag_of_Donetsk_People%27s_Republic.svg.png,Donetsk PR,"9,780",899,"4,597",[177],9.19,47
+118,//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/23px-Flag_of_Estonia.svg.png,"Estonia
+","9,724",88,"5,699",[178][179],0.9,59
+119,//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/23px-Flag_of_Haiti.svg.png,"Haiti
+","9,214",232,"7,854",[180],2.52,85
 120,//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/23px-Flag_of_Zimbabwe.svg.png,"Zimbabwe
-","8,561",254,"8,023",[181],2.97,94
-121,//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/23px-Flag_of_Latvia.svg.png,"Latvia
-","8,187",101,"1,466",[182],1.23,18
-122,//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/23px-Flag_of_Mauritania.svg.png,"Mauritania
-","7,725",163,"7,443",[183],2.11,96
-123,//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/23px-Flag_of_Cuba.svg.png,Cuba,"7,349",130,"6,721",[184],1.77,91
-124,//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/23px-Flag_of_Malta.svg.png,"Malta
-","7,243",78,"5,185",[185][186],1.08,72
-125,//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/23px-Flag_of_the_Bahamas.svg.png,Bahamas,"6,964",154,"4,943",[187][188],2.21,71
-126,//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/23px-Flag_of_Botswana.svg.png,Botswana,"6,441",27,"5,534",[190],0.42,86
-127,//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/23px-Flag_of_Estonia.svg.png,"Estonia
-","6,250",73,"4,205",[191][192],1.17,67
-128,//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/23px-Flag_of_Syria.svg.png,Syria,"6,284",321,"2,405",[193],5.11,38
-129,//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/23px-Flag_of_Cyprus.svg.png,Cyprus,"6,098",28,"1,882",[194],0.46,31
-130,//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/23px-Flag_of_Eswatini.svg.png,"Eswatini
-","6,013",117,"5,732",[195],1.95,95
-131,//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/23px-Flag_of_Malawi.svg.png,"Malawi
-","5,953",185,"5,359",[196],3.11,90
-132,//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/23px-Flag_of_Trinidad_and_Tobago.svg.png,"Trinidad and Tobago
-","5,849",111,"5,203",[197][198],1.9,89
-133,//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/23px-Flag_of_Djibouti.svg.png,"Djibouti
-","5,627",61,"5,492",[199],1.08,98
+","9,172",265,"8,235",[181],2.89,90
+121,//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/20px-Flag_of_Gabon.svg.png,"Gabon
+","9,131",59,"8,976",[182],0.65,98
+122,//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/23px-Flag_of_Malta.svg.png,"Malta
+","8,924",111,"6,654",[183][184],1.24,75
+123,//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/23px-Flag_of_Cyprus.svg.png,Cyprus,"8,456",43,"2,055",[185][186],0.51,24
+124,//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/23px-Flag_of_Mauritania.svg.png,"Mauritania
+","8,096",169,"7,573",[187][188],2.09,94
+125,//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/23px-Flag_of_Cuba.svg.png,Cuba,"7,798",132,"7,307",[189],1.69,94
+126,//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/23px-Flag_of_the_Bahamas.svg.png,Bahamas,"7,395",163,"5,628",[190][191],2.2,76
+127,//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/23px-Flag_of_Syria.svg.png,Syria,"7,154",372,"3,043",[192],5.2,43
+128,//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/23px-Flag_of_Botswana.svg.png,Botswana,"6,820",27,"5,559",[194],0.4,82
+129,//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/23px-Flag_of_Guam.svg.png,Guam,"6,476",104,"4,430",[9][195],1.61,68
+130,//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/23px-Flag_of_Trinidad_and_Tobago.svg.png,"Trinidad and Tobago
+","6,450",115,"5,610",[196][197],1.78,87
+131,//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/22px-Flag_of_Andorra.svg.png,"Andorra
+","6,256",76,"5,358",[198],1.21,86
+132,//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/23px-Flag_of_Eswatini.svg.png,"Eswatini
+","6,205",119,"5,850",[199],1.92,94
+133,//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/23px-Flag_of_Malawi.svg.png,"Malawi
+","6,003",185,"5,441",[200],3.08,91
 134,//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/23px-Flag_of_Nicaragua.svg.png,"Nicaragua
-","5,591",156,"4,225",[200],2.79,76
-135,//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/23px-Flag_of_Guam.svg.png,Guam,"5,473",90,"3,654",[9][201],1.64,67
-136,//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/22px-Flag_of_Andorra.svg.png,"Andorra
-","5,437",75,"4,332",[202],1.38,80
-137,//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/22px-Flag_of_Hong_Kong.svg.png,"Hong Kong
-","5,381",107,"5,146",[203],1.99,96
-138,//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/23px-Flag_of_the_Republic_of_the_Congo.svg.png,Congo,"5,379",92,"3,887",[204][205],1.71,72
-139,//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/23px-Flag_of_Rwanda.svg.png,"Rwanda
-","5,242",38,"4,967",[206][207],0.72,95
+","5,725",159,"4,225",[201],2.78,74
+135,//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/23px-Flag_of_Djibouti.svg.png,"Djibouti
+","5,661",61,"5,552",[202],1.08,98
+136,//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/23px-Flag_of_the_Republic_of_the_Congo.svg.png,Congo,"5,632",93,"3,887",[203][204],1.65,69
+137,//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/23px-Flag_of_Rwanda.svg.png,"Rwanda
+","5,620",46,"5,163",[205][206],0.82,92
+138,//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/22px-Flag_of_Hong_Kong.svg.png,"Hong Kong
+","5,561",108,"5,248",[207],1.94,94
+139,//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_the_Republic_of_Abkhazia.svg/23px-Flag_of_the_Republic_of_Abkhazia.svg.png,Abkhazia,"5,318",68,"3,616",[208],1.28,68
 140,//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/23px-Flag_of_Suriname.svg.png,"Suriname
-","5,239",113,"5,107",[208],2.16,97
+","5,295",116,"5,166",[209],2.19,98
 141,//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/21px-Flag_of_Iceland.svg.png,"Iceland
-","5,101",17,"4,456",[209],0.33,87
+","5,277",26,"5,046",[210],0.49,96
 142,//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/23px-Flag_of_Equatorial_Guinea.svg.png,"Equatorial Guinea
-","5,092",85,"4,968",[210],1.67,98
-143,//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/23px-Flag_of_the_Central_African_Republic.svg.png,"Central African Republic
-","4,866",62,"1,924",[211],1.27,40
-144,//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/23px-Flag_of_Aruba.svg.png,"Aruba
-","4,606",41,"4,389",[212],0.89,95
-145,//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/23px-Flag_of_Guyana.svg.png,"Guyana
-","4,524",135,"3,549",[213][214],2.98,78
-146,//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/23px-Flag_of_Somalia.svg.png,Somalia,"4,301",107,"3,196",[215],2.49,74
-147,//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/23px-Flag_of_Belize.svg.png,"Belize
-","4,176",70,"2,364",[216],1.68,57
-148,//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/23px-Flag_of_Thailand.svg.png,"Thailand
-","3,840",60,"3,661",[217],1.56,95
-149,//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/23px-Flag_of_Mali.svg.png,"Mali
-","3,712",137,"2,832",[218],3.69,76
-150,//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/23px-Flag_of_The_Gambia.svg.png,"The Gambia
-","3,684",121,"3,533",[219],3.28,96
-151,//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/23px-Flag_of_Uruguay.svg.png,Uruguay,"3,560",62,"2,993",[220][221],1.74,84
+","5,130",85,"4,975",[211],1.66,97
+143,//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/23px-Flag_of_Guyana.svg.png,"Guyana
+","5,093",143,"4,018",[212][213],2.81,79
+144,//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/23px-Flag_of_Belize.svg.png,"Belize
+","5,056",107,"2,760",[214],2.12,55
+145,//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/23px-Flag_of_the_Central_African_Republic.svg.png,"Central African Republic
+","4,911",63,"1,924",[215][216],1.28,39
+146,//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/23px-Flag_of_Aruba.svg.png,"Aruba
+","4,731",45,"4,596",[217],0.95,97
+147,//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/23px-Flag_of_Uruguay.svg.png,Uruguay,"4,699",71,"3,679",[218][219],1.51,78
+148,//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/23px-Flag_of_Somalia.svg.png,Somalia,"4,382",108,"3,384",[220],2.46,77
+149,//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/23px-Flag_of_Thailand.svg.png,"Thailand
+","3,920",60,"3,766",[221],1.53,96
+150,//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/23px-Flag_of_Mali.svg.png,"Mali
+","3,868",139,"2,937",[222],3.59,76
+151,//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/23px-Flag_of_The_Gambia.svg.png,"The Gambia
+","3,702",122,"3,567",[223],3.3,96
 152,//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/23px-Flag_of_South_Sudan.svg.png,"South Sudan
-","2,960",59,"1,290",[222][223],1.99,44
+","3,003",59,"1,290",[224][225],1.96,43
 153,//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/23px-Flag_of_Benin.svg.png,"Benin
-","2,781",43,"2,515",[224][225],1.55,90
-154,//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_the_Republic_of_Abkhazia.svg/23px-Flag_of_the_Republic_of_Abkhazia.svg.png,Abkhazia,"2,579",27,"1,167",[226],1.05,45
+","2,844",43,"2,515",[226][227],1.51,88
+154,//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/23px-Flag_of_Togo.svg.png,"Togo
+","2,651",61,"1,885",[228],2.3,71
 155,//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/23px-Flag_of_Burkina_Faso.svg.png,"Burkina Faso
-","2,581",67,"2,382",[227][228],2.6,92
-156,//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/23px-Flag_of_Togo.svg.png,"Togo
-","2,523",57,"1,736",[229],2.26,69
-157,//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/23px-Flag_of_Guinea-Bissau.svg.png,"Guinea-Bissau
-","2,419",43,"2,255",[230][231],1.78,93
-158,//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/23px-Flag_of_Sierra_Leone.svg.png,"Sierra Leone
-","2,385",74,"1,813",[232][233],3.1,76
-159,//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/23px-Flag_of_Yemen.svg.png,"Yemen
-","2,071",605,"1,394",[234],29.21,67
-160,//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/23px-Flag_of_Lesotho.svg.png,"Lesotho
-","1,967",44,"1,024",[235][236],2.24,52
-161,//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_the_Luhansk_People%27s_Republic.svg/23px-Flag_of_the_Luhansk_People%27s_Republic.svg.png,Luhansk PR,"1,643",109,"1,254",[237],6.63,76
+","2,635",68,"2,426",[229][230],2.58,92
+156,//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/23px-Flag_of_Guinea-Bissau.svg.png,"Guinea-Bissau
+","2,419",43,"2,255",[231][232],1.78,93
+157,//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/23px-Flag_of_Sierra_Leone.svg.png,"Sierra Leone
+","2,405",74,"1,828",[233][234],3.08,76
+158,//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/23px-Flag_of_Yemen.svg.png,"Yemen
+","2,086",608,"1,428",[235],29.15,68
+159,//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/23px-Flag_of_Lesotho.svg.png,"Lesotho
+","2,085",44,"1,276",[236][237],2.11,61
+160,//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/23px-Flag_of_Cura%C3%A7ao.svg.png,"Curaçao
+","1,749",3,"1,004",[238],0.17,57
+161,//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_South_Ossetia.svg/23px-Flag_of_South_Ossetia.svg.png,South Ossetia,"1,684",?,484,[239],0.0,0
 162,//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/23px-Flag_of_New_Zealand.svg.png,"New Zealand
-","1,630",25,"1,554",[238],1.53,95
-163,//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/23px-Flag_of_Chad.svg.png,"Chad
-","1,551",99,"1,394",[239],6.38,90
-164,//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/23px-Flag_of_Liberia.svg.png,"Liberia
-","1,452",82,"1,311",[240],5.65,90
+","1,672",25,"1,597",[240],1.5,96
+163,//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_the_Luhansk_People%27s_Republic.svg/23px-Flag_of_the_Luhansk_People%27s_Republic.svg.png,Luhansk PR,"1,669",121,"1,391",[241],7.25,83
+164,//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/23px-Flag_of_Chad.svg.png,"Chad
+","1,551",99,"1,394",[242],6.38,90
 165,//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/23px-Flag_of_the_United_States_Virgin_Islands.svg.png,"U.S. Virgin Islands
-","1,405",23,"1,345",[241],1.64,96
-166,//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/18px-Flag_of_Niger.svg.png,"Niger
-","1,246",69,"1,144",[242],5.54,92
-167,//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/23px-Flag_of_Vietnam.svg.png,"Vietnam
-","1,215",35,"1,087",[243],2.88,89
-168,//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Flag_of_Somaliland.svg/23px-Flag_of_Somaliland.svg.png,Somaliland,"1,188",37,972,[244][245],3.11,82
-169,//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/20px-Flag_of_San_Marino.svg.png,"San Marino
-","1,114",42,789,[246],3.77,71
-170,//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flugzeugtr%C3%A4ger_Silhouette.svg/23px-Flugzeugtr%C3%A4ger_Silhouette.svg.png,USS Theodore Roosevelt,"1,102",1,751,[247][248],0.09,68
-171,//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/23px-Flag_of_Cura%C3%A7ao.svg.png,"Curaçao
-","1,097",2,816,[249],0.18,74
-172,//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flugzeugtr%C3%A4ger_Silhouette.svg/23px-Flugzeugtr%C3%A4ger_Silhouette.svg.png,Charles de Gaulle,"1,081",0,0,[250],0.0,0
-173,//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg/23px-Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg.png,Northern Cyprus,973,5,912,[254],0.51,94
-174,//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Sao_Tome_and_Principe.svg/23px-Flag_of_Sao_Tome_and_Principe.svg.png,"São Tomé and Príncipe
-",962,16,912,[255],1.66,95
+","1,491",23,"1,402",[243],1.54,94
+166,//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/23px-Flag_of_Liberia.svg.png,"Liberia
+","1,452",82,"1,311",[244],5.65,90
+167,//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/20px-Flag_of_San_Marino.svg.png,"San Marino
+","1,395",43,"1,082",[245],3.08,78
+168,//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/18px-Flag_of_Niger.svg.png,"Niger
+","1,351",70,"1,158",[246],5.18,86
+169,//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/23px-Flag_of_Vietnam.svg.png,"Vietnam
+","1,306",35,"1,142",[247],2.68,87
+170,//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Flag_of_Somaliland.svg/23px-Flag_of_Somaliland.svg.png,Somaliland,"1,223",37,"1,110",[248][249],3.03,91
+171,//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/23px-Flag_of_Liechtenstein.svg.png,"Liechtenstein
+","1,109",8,900,[250],0.72,81
+172,//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flugzeugtr%C3%A4ger_Silhouette.svg/23px-Flugzeugtr%C3%A4ger_Silhouette.svg.png,USS Theodore Roosevelt,"1,102",1,751,[251][252],0.09,68
+173,//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flugzeugtr%C3%A4ger_Silhouette.svg/23px-Flugzeugtr%C3%A4ger_Silhouette.svg.png,Charles de Gaulle,"1,081",0,0,[253],0.0,0
+174,//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg/23px-Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg.png,Northern Cyprus,"1,048",5,982,[257],0.48,94
 175,//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Sint_Maarten.svg/23px-Flag_of_Sint_Maarten.svg.png,"Sint Maarten
-",896,23,801,[256],2.57,89
-176,//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/23px-Flag_of_Liechtenstein.svg.png,"Liechtenstein
-",801,4,565,[257],0.5,71
+",996,25,890,[258],2.51,89
+176,//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Sao_Tome_and_Principe.svg/23px-Flag_of_Sao_Tome_and_Principe.svg.png,"São Tomé and Príncipe
+",979,17,920,[259],1.74,94
 177,//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Gibraltar.svg/23px-Flag_of_Gibraltar.svg.png,"Gibraltar
-",770,0,673,[258],0.0,87
-178,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,Diamond Princess,712,14,653,[259][260],1.97,92
-179,//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg/23px-Flag_of_the_Turks_and_Caicos_Islands.svg.png,"Turks and Caicos Islands
-",707,6,691,[261],0.85,98
+",887,1,742,[260],0.11,84
+178,//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg/23px-Flag_of_the_Turks_and_Caicos_Islands.svg.png,"Turks and Caicos Islands
+",746,6,700,[261],0.8,94
+179,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,Diamond Princess,712,14,653,[262][263],1.97,92
 180,//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Flag_of_Jersey.svg/23px-Flag_of_Jersey.svg.png,"Jersey
-",643,32,516,[262],4.98,80
-181,//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/20px-Flag_of_Papua_New_Guinea.svg.png,"Papua New Guinea
-",599,7,585,[263],1.17,98
-182,//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/23px-Flag_of_Burundi.svg.png,"Burundi
-",589,1,511,[264],0.17,87
-183,//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/23px-Flag_of_the_Republic_of_China.svg.png,Taiwan,578,7,526,[266],1.21,91
-184,//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/23px-Flag_of_the_Comoros.svg.png,"Comoros
-",563,7,532,[267],1.24,94
-185,//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_the_Faroe_Islands.svg/21px-Flag_of_the_Faroe_Islands.svg.png,"Faroe Islands
-",497,0,492,[268][269],0.0,99
-186,//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/23px-Flag_of_Eritrea.svg.png,"Eritrea
-",491,0,438,[270],0.0,89
-187,//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/19px-Flag_of_Monaco.svg.png,"Monaco
-",490,2,369,[271],0.41,75
-188,//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/23px-Flag_of_Mauritius.svg.png,"Mauritius
-",453,10,416,[272],2.21,92
-189,//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flag_of_Artsakh.svg/23px-Flag_of_Artsakh.svg.png,Artsakh,404,2,337,[273],0.5,83
-190,//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/23px-Flag_of_Mongolia.svg.png,"Mongolia
-",368,0,31,[274],0.0,8
+",672,32,534,[264],4.76,79
+181,//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/23px-Flag_of_the_Republic_of_China.svg.png,Taiwan,617,7,548,[266],1.13,89
+182,//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/20px-Flag_of_Papua_New_Guinea.svg.png,"Papua New Guinea
+",599,7,585,[267],1.17,98
+183,//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/23px-Flag_of_the_Comoros.svg.png,"Comoros
+",591,7,558,[268],1.18,94
+184,//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/23px-Flag_of_Burundi.svg.png,"Burundi
+",589,1,511,[269],0.17,87
+185,//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/23px-Flag_of_Mongolia.svg.png,"Mongolia
+",587,0,337,[270],0.0,57
+186,//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/19px-Flag_of_Monaco.svg.png,"Monaco
+",573,3,497,[271],0.52,87
+187,//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_the_Faroe_Islands.svg/21px-Flag_of_the_Faroe_Islands.svg.png,"Faroe Islands
+",497,0,494,[272][273],0.0,99
+188,//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/23px-Flag_of_Eritrea.svg.png,"Eritrea
+",491,0,438,[274],0.0,89
+189,//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/23px-Flag_of_Mauritius.svg.png,"Mauritius
+",453,10,416,[275],2.21,92
+190,//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flag_of_Artsakh.svg/23px-Flag_of_Artsakh.svg.png,Artsakh,404,2,337,[276],0.5,83
 191,//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/23px-Flag_of_Bhutan.svg.png,"Bhutan
-",359,0,338,[275],0.0,94
-192,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Isle_of_Man.svg/23px-Flag_of_the_Isle_of_Man.svg.png,Isle of Man,357,24,324,[276],6.72,91
+",379,0,360,[277],0.0,95
+192,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_the_Isle_of_Man.svg/23px-Flag_of_the_Isle_of_Man.svg.png,Isle of Man,359,25,324,[278],6.96,90
 193,//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/23px-Flag_of_Cambodia.svg.png,"Cambodia
-",297,0,288,[277],0.0,97
+",306,0,295,[279],0.0,96
 194,//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Guernsey.svg/23px-Flag_of_Guernsey.svg.png,"Guernsey
-",274,13,249,[278],4.74,91
+",282,13,253,[280],4.61,90
 195,//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/23px-Flag_of_Barbados.svg.png,"Barbados
-",243,7,231,[279],2.88,95
+",259,7,241,[281],2.7,93
 196,//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_the_Cayman_Islands.svg/23px-Flag_of_the_Cayman_Islands.svg.png,"Cayman Islands
-",250,1,236,[280],0.4,94
+",250,1,236,[282],0.4,94
 197,//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bermuda.svg/23px-Flag_of_Bermuda.svg.png,"Bermuda
-",214,9,182,[281],4.21,85
-198,//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/23px-Flag_of_Seychelles.svg.png,"Seychelles
-",153,0,149,[282][283],0.0,97
-199,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,"Costa Atlantica
-",148,0,148,[284][285],0.0,100
-200,//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/23px-Flag_of_Brunei.svg.png,"Brunei
-",148,3,143,[286][287],2.03,97
-201,//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_Bonaire.svg/23px-Flag_of_Bonaire.svg.png,"Bonaire
-",134,3,126,[288],2.24,94
-202,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,Greg Mortimer,128,1,None,[289][290],0.0,0
-203,//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/23px-Flag_of_Antigua_and_Barbuda.svg.png,"Antigua and Barbuda
-",128,3,117,[291][292],2.34,91
-204,//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/23px-Flag_of_Saint_Lucia.svg.png,"Saint Lucia
-",141,0,32,[293],0.0,23
+",214,9,182,[283],4.21,85
+198,//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/23px-Flag_of_Saint_Lucia.svg.png,"Saint Lucia
+",220,2,60,[284],0.91,27
+199,//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/23px-Flag_of_Seychelles.svg.png,"Seychelles
+",163,0,159,[285][286],0.0,98
+200,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,"Costa Atlantica
+",148,0,148,[287][288],0.0,100
+201,//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/23px-Flag_of_Brunei.svg.png,"Brunei
+",148,3,143,[289][290],2.03,97
+202,//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/23px-Flag_of_Antigua_and_Barbuda.svg.png,"Antigua and Barbuda
+",139,3,127,[291][292],2.16,91
+203,//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_Bonaire.svg/23px-Flag_of_Bonaire.svg.png,"Bonaire
+",134,3,126,[293],2.24,94
+204,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,Greg Mortimer,128,1,None,[294][295],0.0,0
 205,//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/23px-Flag_of_the_Northern_Mariana_Islands.svg.png,"Northern Mariana Islands 
-",96,2,19,[294][295],2.08,20
-206,//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_South_Ossetia.svg/23px-Flag_of_South_Ossetia.svg.png,South Ossetia,90,0,90,[273],0.0,100
-207,//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/23px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png,Saint Vincent,76,0,72,[296][297],0.0,95
-208,//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/23px-Flag_of_the_British_Virgin_Islands.svg.png,"British Virgin Islands
-",71,1,70,[298],1.41,99
-209,//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/23px-Flag_of_Dominica.svg.png,"Dominica
-",63,0,35,[299][300],0.0,56
-210,//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/23px-Flag_of_Macau.svg.png,"Macau
-",46,0,46,[301],0.0,100
+",100,2,19,[296][297],2.0,19
+206,//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/23px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png,Saint Vincent,84,0,78,[298][299],0.0,93
+207,//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/23px-Flag_of_the_British_Virgin_Islands.svg.png,"British Virgin Islands
+",72,1,70,[300],1.39,97
+208,//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/23px-Flag_of_Dominica.svg.png,"Dominica
+",72,0,55,[301][302],0.0,76
+209,//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/23px-Flag_of_Macau.svg.png,"Macau
+",46,0,46,[303],0.0,100
+210,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/23px-Flag_of_Grenada.svg.png,"Grenada
+",41,0,30,[304][305],0.0,73
 211,//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/23px-Flag_of_Fiji.svg.png,"Fiji
-",34,2,31,[302][303],5.88,91
+",35,2,33,[306][307],5.71,94
 212,//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/23px-Flag_of_East_Timor.svg.png,"East Timor
-",30,0,29,[304],0.0,97
-213,//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg/23px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png,Sahrawi Arab DR,28,2,26,[305],7.14,93
-214,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/23px-Flag_of_Grenada.svg.png,"Grenada
-",28,0,24,[306][307],0.0,86
-215,//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flags_of_New_Caledonia.svg/23px-Flags_of_New_Caledonia.svg.png,"New Caledonia
-",28,0,28,[308],0.0,100
-216,//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/15px-Flag_of_the_Vatican_City.svg.png,"Vatican City
-",27,0,15,[309][310],0.0,56
-217,//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/23px-Flag_of_Laos.svg.png,"Laos
-",24,0,23,[311],0.0,96
-218,//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/23px-Flag_of_Saint_Kitts_and_Nevis.svg.png,"Saint Kitts and Nevis
-",19,0,19,[312],0.0,100
-219,//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/23px-Flag_of_Greenland.svg.png,"Greenland
-",17,0,17,[313][314],0.0,100
+",30,0,30,[308],0.0,100
+213,//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flags_of_New_Caledonia.svg/23px-Flags_of_New_Caledonia.svg.png,"New Caledonia
+",30,0,30,[309],0.0,100
+214,//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg/23px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png,Sahrawi Arab DR,28,2,26,[310],7.14,93
+215,//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/15px-Flag_of_the_Vatican_City.svg.png,"Vatican City
+",27,0,15,[311][312],0.0,56
+216,//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/23px-Flag_of_Laos.svg.png,"Laos
+",25,0,23,[313],0.0,92
+217,//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/23px-Flag_of_Saint_Kitts_and_Nevis.svg.png,"Saint Kitts and Nevis
+",19,0,19,[314],0.0,100
+218,//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/23px-Flag_of_Greenland.svg.png,"Greenland
+",17,0,17,[315][316],0.0,100
+219,//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_Falkland_Islands.svg/23px-Flag_of_the_Falkland_Islands.svg.png,"Falkland Islands
+",16,0,13,[317],0.0,81
 220,//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png,"Saint Pierre and Miquelon
-",16,0,12,[315][316],0.0,75
-221,//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Sint_Eustatius.svg/23px-Flag_of_Sint_Eustatius.svg.png,"Sint Eustatius
-",14,0,4,[317],0.0,29
-222,//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_Falkland_Islands.svg/23px-Flag_of_the_Falkland_Islands.svg.png,"Falkland Islands
-",13,0,13,[318],0.0,100
+",16,0,12,[318][319],0.0,75
+221,//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/23px-Flag_of_the_Solomon_Islands.svg.png,"Solomon Islands
+",16,0,5,[320],0.0,31
+222,//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Sint_Eustatius.svg/23px-Flag_of_Sint_Eustatius.svg.png,"Sint Eustatius
+",14,0,4,[321],0.0,29
 223,//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/23px-Flag_of_Montserrat.svg.png,"Montserrat
-",13,1,12,[319],7.69,92
-224,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,MS Zaandam,13,4,None,[322][323],0.0,0
-225,//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/23px-Flag_of_the_Solomon_Islands.svg.png,"Solomon Islands
-",13,0,4,[324],0.0,31
-226,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,Coral Princess,12,3,None,[326],0.0,0
-227,//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sub.svg/23px-Sub.svg.png,HNLMS Dolfijn,8,0,8,[327][330],0.0,100
-228,//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Saba.svg/23px-Flag_of_Saba.svg.png,"Saba
-",5,0,5,[331],0.0,100
-229,//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/23px-Flag_of_Anguilla.svg.png,"Anguilla
-",3,0,3,[332],0.0,100
-230,//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/23px-Flag_of_the_Marshall_Islands.svg.png,"Marshall Islands
-",2,0,0,[333],0.0,0
-231,//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/23px-Flag_of_Wallis_and_Futuna.svg.png,"Wallis and Futuna
-",1,0,1,[334],0.0,100
-232,//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/23px-Flag_of_Tanzania.svg.png,Tanzania,None,None,None,[336][337],0.0,0
+",13,1,12,[322],7.69,92
+224,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,MS Zaandam,13,4,None,[325][326],0.0,0
+225,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,Coral Princess,12,3,None,[328],0.0,0
+226,//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cruise_ship_side_view.svg/23px-Cruise_ship_side_view.svg.png,SeaDream I,9,0,None,[329][330],0.0,0
+227,//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sub.svg/23px-Sub.svg.png,HNLMS Dolfijn,8,0,8,[331][334],0.0,100
+228,//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/23px-Flag_of_the_Marshall_Islands.svg.png,"Marshall Islands
+",5,0,2,[335],0.0,40
+229,//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Saba.svg/23px-Flag_of_Saba.svg.png,"Saba
+",5,0,5,[336],0.0,100
+230,//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/23px-Flag_of_Anguilla.svg.png,"Anguilla
+",3,0,3,[337],0.0,100
+231,//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/23px-Flag_of_American_Samoa.svg.png,"American Samoa
+",3,0,0,[338],0.0,0
+232,//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/23px-Flag_of_Wallis_and_Futuna.svg.png,"Wallis and Futuna
+",2,0,1,[339],0.0,50
+233,//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/23px-Flag_of_Samoa.svg.png,"Samoa
+",1,0,0,[340],0.0,0
+234,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/23px-Flag_of_Vanuatu.svg.png,"Vanuatu
+",1,0,0,[341],0.0,0
+235,//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/23px-Flag_of_Tanzania.svg.png,Tanzania,None,None,None,[343][344],0.0,0

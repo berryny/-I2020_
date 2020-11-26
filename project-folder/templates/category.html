@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Category: {{title}}{% endblock %}
+{% block content %}
+  <h1><span>{{title}}</span> Previews</h1>
+  <div id="{{title}}" class="container">
+    <!-- {{sitepreview}} -->
+    {% for preview in sitepreview: %}
+      <div class="category">
+        {% if preview['image'] %}
+          <img src="{{preview['image']}}" alt="{{preview['title']}}" />
+        {% elif preview['metaimage'] %}
+          <img src="{{preview['metaimage']}}" alt="{{preview['title']}}" />
+        {% endif %}
+        <h3>{{preview['title']}}</h3>
+        <p>{{preview['description']}}</p>
+      </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}
