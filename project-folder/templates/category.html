@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Category: {{title}}{% endblock %}
+{% block title %}Category: {{title.capitalize()}}{% endblock %}
 {% block content %}
   <h1><span>{{title}}</span> Previews</h1>
   <div id="{{title}}" class="container">
