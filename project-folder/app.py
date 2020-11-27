@@ -113,7 +113,7 @@ class WebPagesPreview(object):
 app = Flask(__name__)
 
 app.config["ENV"] = 'development'
-app.config["SECRET_KEY"]=b'_5#y2L"F4Q8z\n\xec]/'
+app.config["SECRET_KEY"]=
 
 # change the following .db file name
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///sitepreview.db'
