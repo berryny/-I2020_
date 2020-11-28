@@ -10,7 +10,7 @@ from flask_assets import Environment, Bundle
 from flask_sqlalchemy import SQLAlchemy
 
 from bs4 import BeautifulSoup
-import requests, json, urllib3
+import requests, json, urllib3, os, random, sys
 from urllib.parse import urlparse, urljoin, urlunparse
 
 # Install  Pillow 8.0.1 [https://pypi.org/project/Pillow/] to find time image size (h,w)
@@ -47,6 +47,7 @@ class WebPagesPreview(object):
                     # dataDict['website'] = l['website']
                     categoriesLst.append(l['website'])
                     categoryDict[c] = categoriesLst
+        # print('categoryDict',categoryDict)
         return categoryDict
 
     def dataCategory(self, catg):
@@ -70,6 +71,7 @@ class WebPagesPreview(object):
             # Check if request was sucessful
             req = requests.get(s)
             if req.status_code == 200:
+                print('s',s)
                 soup = BeautifulSoup(req.content, "html.parser")
                 dataMeta = {}
                 tagTitle = soup.find('title')
@@ -85,7 +87,7 @@ class WebPagesPreview(object):
                 elif tagMetaDescription is not None:
                     dataMeta['description'] = tagMetaDescription.text
                 else:
-                    dataMeta['description'] = None
+                    dataMeta['description'] = ''
 
                 tagMetaImage = soup.find('meta', attrs={'property' : 'og:image'})
                 tagRelImage = soup.find('rel', attrs={'property' : 'shortcut icon'})
@@ -104,39 +106,38 @@ class WebPagesPreview(object):
                 elif tagRelImage is not None and 'href' in tagRelImage.attrs:
                     dataMeta['image'] = urljoin(urlBase, tagRelImage['href'])
                 else:
-                    dataMeta['image'] = None
+                    dataMeta['image'] = ''
 
                 siteMeta.append(dataMeta)
-        # print('dataMeta',siteMeta)
+        print('dataMeta',siteMeta)
         return siteMeta
 
 app = Flask(__name__)
-
-app.config["ENV"] = 'development'
-app.config["SECRET_KEY"]=
-
-# change the following .db file name
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///sitepreview.db'
-# this line is to prevent SQLAlchemy from throwing a warning
-# if you don't get one with out it, feel free to remove
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config.from_object('config.Config')
 
 #
 # DB SETUP
-#
-
 # this set's up our db connection to our flask application
+#
 db = SQLAlchemy(app)
 # this is our model (aka table)
 class PreviewDB(db.Model):
+    # __tablename__ = 'example'
     id = db.Column(db.Integer, primary_key=True)
     category = db.Column(db.String(255), nullable=False)
     title = db.Column(db.String(255), nullable=False)
     description = db.Column(db.Text, nullable=False)
-    image = db.Column(db.LargeBinary, nullable=False)
+    image = db.Column(db.Text, nullable=False)
+
+    def __init__(self, category, title, description, image):
+        self.category = category
+        self.title = title
+        self.description = description
+        self.image = image
 
     def __repr__(self):
-        return '<PreviewDB %r>' % self.title
+        return '<PreviewDB %r>' % self.category
+
 bundles = {
 
     'all_js': Bundle(
@@ -163,7 +164,7 @@ def nav(categoryItem):
     l = WebPagesPreview(jsonLinksList)
     catLinks = l.dataCategory(categoryItem.lower())
     sitepreview = l.scrapSite(catLinks)
-    print('sitepreview',sitepreview)
+    # print('sitepreview',sitepreview)
 
     # previewList = []
     # for previews in sitepreview:
@@ -176,13 +177,30 @@ def nav(categoryItem):
     #
 
     for pLst in sitepreview:
-        print('pLst',pLst)
-        s = PreviewDB(category = categoryItem.lower(), title = pLst['title'], description = pLst['description'], image = pLst['image'])
+        rand = random.sample(range(1, 10000000), 3)
+
         try:
-            db.session.add(s)
+            print('categoryItem.lower()',categoryItem)
+            newentry = PreviewDB(category=categoryItem, title=pLst['title'], description=pLst['description'], image=pLst['image'])
+            db.session.add(newentry)
             db.session.commit()
+
         except:
-            print("not gonna work")
+            print("Unexpected error:", sys.exc_info()[0])
+
+    print('PreviewDB.query.all\n',PreviewDB.query.all())
+    # print('PreviewDB.query.filter_by\n', PreviewDB.query.filter_by(PreviewDB.category = 'volunteer'))
+
+    catgpreviews = PreviewDB.query.all()
+    results = [
+        {
+            "category": catgpreview.category,
+            "title": catgpreview.title,
+            "description": catgpreview.description,
+            "image": catgpreview.image
+        } for catgpreview in catgpreviews]
+    print('results',results)
+
     return render_template("category.html", title=categoryItem, sitepreview=sitepreview)
 
 @app.errorhandler(404)
@@ -192,4 +210,7 @@ def page_not_found(e):
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
+    db.drop_all()
+    db.create_all()
+    db.session.commit()
     app.run(threaded=True, port=5000, debug=True)

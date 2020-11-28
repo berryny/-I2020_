@@ -1,6 +1,6 @@
 __pycache__
 .ipynb_checkpoints
 athome/*
-config.py
 *.cfg
+config.py
 .env
