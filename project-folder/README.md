@@ -11,3 +11,14 @@
 pip install python-dotenv
 flask run
 ```
+
+## Files
+
+Create a `config.py` to set Flask config variables with a `class Config:`
+
+Create a `.env` file containing
+
+```
+SECRET_KEY=
+SQLALCHEMY_DATABASE_URI =
+````
