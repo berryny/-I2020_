@@ -47,8 +47,25 @@ class WebPagesPreview(object):
                     # dataDict['website'] = l['website']
                     categoriesLst.append(l['website'])
                     categoryDict[c] = categoriesLst
-        # print('categoryDict',categoryDict)
         return categoryDict
+
+    def createPreviewDB(self):
+        previewsLst = []
+        for catgItems in self.catgData:
+            getPreviews = self.dataCategory(catgItems.lower())
+            scrapPreviews = self.scrapSite(getPreviews)
+            for gsp in scrapPreviews:
+                gsp['category'] = catgItems.lower()
+                previewsLst.append( gsp )
+
+        if previewsLst:
+            for pLst in previewsLst:
+                try:
+                    newentry = PreviewDB(category=pLst['category'], title=pLst['title'], description=pLst['description'], image=pLst['image'])
+                    db.session.add(newentry)
+                    db.session.commit()
+                except:
+                    print("Unexpected error:", sys.exc_info()[0])
 
     def dataCategory(self, catg):
         self.catg = catg
@@ -71,7 +88,6 @@ class WebPagesPreview(object):
             # Check if request was sucessful
             req = requests.get(s)
             if req.status_code == 200:
-                print('s',s)
                 soup = BeautifulSoup(req.content, "html.parser")
                 dataMeta = {}
                 tagTitle = soup.find('title')
@@ -79,15 +95,16 @@ class WebPagesPreview(object):
                     dataMeta['title'] = tagTitle.text
 
                 # Site Meta or Description information
-                tagBody = soup.find('body')
-                tagDescription = tagBody.find('p')
-                tagMetaDescription = soup.find('meta', attrs={'property' : 'og:description'})
-                if tagDescription is not None:
-                    dataMeta['description'] = tagDescription.text
-                elif tagMetaDescription is not None:
-                    dataMeta['description'] = tagMetaDescription.text
-                else:
-                    dataMeta['description'] = ''
+                if soup.find('body'):
+                    tagBody = soup.find('body')
+                    tagDescription = tagBody.find('p')
+                    tagMetaDescription = soup.find('meta', attrs={'property' : 'og:description'})
+                    if tagDescription is not None:
+                        dataMeta['description'] = tagDescription.text
+                    elif tagMetaDescription is not None:
+                        dataMeta['description'] = tagMetaDescription.text
+                    else:
+                        dataMeta['description'] = ''
 
                 tagMetaImage = soup.find('meta', attrs={'property' : 'og:image'})
                 tagRelImage = soup.find('rel', attrs={'property' : 'shortcut icon'})
@@ -109,7 +126,6 @@ class WebPagesPreview(object):
                     dataMeta['image'] = ''
 
                 siteMeta.append(dataMeta)
-        print('dataMeta',siteMeta)
         return siteMeta
 
 app = Flask(__name__)
@@ -158,40 +174,17 @@ def home():
     d = WebPagesPreview(jsonLinksList)
     return render_template("index.html", catgData=d.catgData.keys())
 
+@app.route("/createdb/")
+def catgLayout():
+    l = WebPagesPreview(jsonLinksList)
+    l.createPreviewDB()
+    return render_template("createdb.html", title='createdb')
+
 @app.route("/category/<string:categoryItem>")
 # Define the category page
-def nav(categoryItem):
-    l = WebPagesPreview(jsonLinksList)
-    catLinks = l.dataCategory(categoryItem.lower())
-    sitepreview = l.scrapSite(catLinks)
-    # print('sitepreview',sitepreview)
-
-    # previewList = []
-    # for previews in sitepreview:
-    #     previewDict = {}
-    #     for p in previews:
-    #         print('previews',p,previews[p])
-    #         previewDict[p] = previews[p]
-    #         previewDict['category'] = categoryItem
-    #         previewList.append(previewDict)
-    #
-
-    for pLst in sitepreview:
-        rand = random.sample(range(1, 10000000), 3)
-
-        try:
-            print('categoryItem.lower()',categoryItem)
-            newentry = PreviewDB(category=categoryItem, title=pLst['title'], description=pLst['description'], image=pLst['image'])
-            db.session.add(newentry)
-            db.session.commit()
-
-        except:
-            print("Unexpected error:", sys.exc_info()[0])
-
-    print('PreviewDB.query.all\n',PreviewDB.query.all())
-    # print('PreviewDB.query.filter_by\n', PreviewDB.query.filter_by(PreviewDB.category = 'volunteer'))
-
-    catgpreviews = PreviewDB.query.all()
+def categoryLayout(categoryItem):
+    # catgpreviews = PreviewDB.query.all()
+    catgpreviews = PreviewDB.query.filter(PreviewDB.category == categoryItem.lower()).all()
     results = [
         {
             "category": catgpreview.category,
@@ -199,9 +192,8 @@ def nav(categoryItem):
             "description": catgpreview.description,
             "image": catgpreview.image
         } for catgpreview in catgpreviews]
-    print('results',results)
 
-    return render_template("category.html", title=categoryItem, sitepreview=sitepreview)
+    return render_template("category.html", title=categoryItem, sitepreview=results)
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -210,7 +202,7 @@ def page_not_found(e):
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
-    db.drop_all()
+    # db.drop_all()
     db.create_all()
     db.session.commit()
     app.run(threaded=True, port=5000, debug=True)
