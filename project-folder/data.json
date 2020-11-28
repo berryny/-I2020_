@@ -710,7 +710,7 @@
   },
   {
     "category": "Business",
-    "website": "https://home.treasury.gov/system/files/136/PPP-Forgiveness-Application-3508EZ.pdf",
+    "website": "https://home.treasury.gov/news/press-releases/sm1148",
     "tags": ["services", "finance", "business", "grant"]
   },
   {
@@ -1074,36 +1074,27 @@
     "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigration"]
   },
   {
-    "website": "https://comptroller.nyc.gov/services/for-the-public/diversity-initiatives/mwbe-university/",
-    "title": "M/WBE University : Office of the New York City Comptroller Scott M. Stringer",
-    "description": "Comptroller’s M/WBE University is a series of workshops designed to increase access to the Comptroller’s Office and citywide opportunities for M/WBEs.",
-    "extImg": "https://comptroller.nyc.gov/wp-content/themes/comptroller_theme/images/mwbe/mwbe-u_logo.png",
     "category": "Services",
+    "website": "https://comptroller.nyc.gov/services/for-the-public/diversity-initiatives/mwbe-university/",
     "tags": ["services", "finance"]
   },
   {
+    "category": "Services",
+    "website": "https://my2020census.gov",
+    "tags": ["census", "services"]
+  },
+  {
+    "category": "Transportation",
+    "website": "https://new.mta.info/precautions-against-coronavirus",
+    "tags": ["mta", "services", "transportation"]
+  },
+   {
     "website": "https://www.finance.senate.gov/imo/media/doc/Section-by-Section%20Coronavirus%20Tax%20Relief%20Measures.pdf",
     "title": "– RELIEF FOR INDIVIDUALS, FAMILIES, AND BUSINESSES",
     "description": "PDF",
     "extImg": "",
     "category": "Services",
     "tags": ["services", "finance"]
-  },
-  {
-    "website": "https://my2020census.gov",
-    "title": "Welcome to the 2020 Census",
-    "description": "The 2020 Census questionnaire",
-    "extImg": "",
-    "category": "Services",
-    "tags": ["census", "services"]
-  },
-  {
-    "website": "https://new.mta.info/precautions-against-coronavirus",
-    "title": "MTA Essential Service During the Coronavirus Pandemic",
-    "description": "Operating MTA Essential Service during the COVID-19 pandemic",
-    "extImg": "",
-    "category": "Transportation",
-    "tags": ["mta", "services", "transportation"]
   },
   {
     "website": "https://new.mta.info/coronavirus",
@@ -1122,80 +1113,50 @@
   },
   {
     "website": "https://www1.nyc.gov/html/dot/html/bicyclists/bikemaps.shtml",
-    "title": "DOT New York City Bike Map",
-    "description": "Looking for a copy of the NYC Bike Map? Visit a local NYC bicycle shop! Free copies are available at most shops, citywide, as well as at many libraries and community centers.",
-    "extImg": "https://www1.nyc.gov/html/dot/images/bicyclists/bikemap-cover-2020.jpg",
     "category": "Bicycle",
     "tags": ["health", "bicycle", "transportation"]
   },
   {
     "website": "https://www1.nyc.gov/html/dot/html/bicyclists/bike-corrals.shtml",
-    "title": "BikeCorrals",
-    "description": "BikeCorrals are bike racks installed in the curbside lane of the street instead of on the sidewalk. This design is a great solution for places where demand for bicycle parking exceeds the available sidewalk space. Anyone can request a BikeCorral but every corral needs a maintenance partner to keep the BikeCorral clear of snow and debris.",
-    "extImg": "https://www1.nyc.gov/html/dot/images/bicyclists/bicycleparking-corral.jpg",
     "category": "Bicycle",
     "tags": ["health", "bicycle", "transportation"]
   },
   {
     "website": "https://www.myhealth.va.gov/mhv-portal-web/home",
-    "title": "My HealtheVet",
-    "description": "My HealtheVet the VA’s online patient portal, where Veterans can ask non-urgent questions to their VA healthcare team, schedule appointments for VA Video Connect, and fill prescriptions. ",
-    "extImg": "",
     "category": "Health",
     "tags": ["health", "services", "veterans", "va"]
   },
   {
     "website": "https://smallbusiness.withgoogle.com/news/resources-for-smbs-impacted-by-coronavirus/",
-    "title": "Helping your business through COVID-19",
-    "description": "We know this is a difficult time for people everywhere, including small business owners. We want to help. We’ve gathered some useful resources to help your business navigate these challenging times.",
-    "extImg": "https://lh3.googleusercontent.com/2h50w9FPvpTz3ubHTK8-IUv9L2XYtqMsUzBOUTgd4rx66LaKYs1DuAUOZyOTLfnFmFR-xZpuFsLD3NQ2NGg26bzPRIfyFo9m3B5KTw=-w396-rwu",
     "category": "Business",
     "tags": ["business", "services", "finance"]
   },
   {
     "website": "https://events.withgoogle.com/growonair/",
-    "title": "Learn more with Grow with Google OnAir",
-    "description": "Grow your digital skills, no matter where you’re located. Through online workshops and virtual one-on-one coaching sessions, you can learn skills that can help you stay connected and productive while working or managing a business remotely.",
-    "extImg": "",
     "category": "Business",
     "tags": ["business", "services", "finance"]
   },
   {
-    "title": "NYC COVID-19 Engagement Portal",
-    "description": "The City of New York is collecting information to better understand and communicate about the impacts of the 2019 Novel Coronavirus (COVID-19). This information will be helpful in enabling the City to share information with you and members of the public about COVID-19, and to help inform the City’s response to areas affected by COVID-19.",
-    "extImg": "",
-    "category": "Food",
     "website": "https://cv19engagementportal.cityofnewyork.us",
-    "tags": ["food", "nutrition"]
-  },
-  {
-    "title": "COVID-19 Food Assistance Resources",
-    "description": "During the COVID-19 public health crisis, New York City is taking steps to make sure every New Yorker has access to the food they need.",
-    "extImg": "",
     "category": "Food",
-    "website": "https://www1.nyc.gov/assets/dsny/contact/services/COVID-19FoodAssistance.shtml",
     "tags": ["food", "nutrition"]
   },
   {
-    "title": "NYC Family Justice Centers",
-    "description": "NYC HOPE can connect you to resources to help you or a loved one experiencing dating, domestic, or gender-based violence.",
-    "extImg": "https://www1.nyc.gov/assets/nychope/images/content/nyc-hope/heroes/home-hero.jpg",
-    "category": "Immigrant",
+    "website": "https://www1.nyc.gov/assets/dsny/contact/services/COVID-19FoodAssistance.shtml",
+    "category": "Food",
+    "tags": ["food", "nutrition"]
+  },
+  {
     "website": "https://www1.nyc.gov/nychope/site/page/home",
+    "category": "Immigrant",
     "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigration"]
   },
   {
-    "title": "Coronavirus (COVID-19)",
-    "description": "SBA Disaster Assistance in Response to the Coronavirus",
-    "extImg": "",
     "category": "Services",
     "website": "https://sba.gov/disaster-assistance/coronavirus-covid-19",
     "tags": ["services", "finance", "business"]
   },
   {
-    "title": "Governor Cuomo Issues Guidance on Essential Services Under The 'New York State on PAUSE' Executive Order",
-    "description": "Earlier today, Governor Andrew M. Cuomo announced he is signing the 'New York State on PAUSE' executive order, a 10-point policy to assure uniform safety for everyone. It includes a new directive that all non-essential businesses statewide must close in-office personnel functions effective at 8PM on Sunday, March 22.",
-    "extImg": "",
     "category": "Services",
     "website": "https://www.governor.ny.gov/news/governor-cuomo-issues-guidance-essential-services-under-new-york-state-pause-executive-order",
     "tags": ["services", "food", "school", "health", "businesses"]
