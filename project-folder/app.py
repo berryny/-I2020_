@@ -42,9 +42,6 @@ class WebPagesPreview(object):
             categoriesLst = []
             for l in sortedLinks:
                 if c == l['category']:
-                    # dataDict = {}
-                    # dataDict['category'] = l['category']
-                    # dataDict['website'] = l['website']
                     categoriesLst.append(l['website'])
                     categoryDict[c] = categoriesLst
         return categoryDict
@@ -69,8 +66,8 @@ class WebPagesPreview(object):
 
     def dataCategory(self, catg):
         self.catg = catg
-        catItems = self.catgData
-        for k,val in catItems.items():
+        self.catItems = self.catgData
+        for k,val in self.catItems.items():
             if k.lower() == self.catg:
                 return val
 
@@ -110,13 +107,6 @@ class WebPagesPreview(object):
                 tagRelImage = soup.find('rel', attrs={'property' : 'shortcut icon'})
                 tagImage = tagBody.find('img')
                 if tagImage is not None and 'src' in tagImage.attrs:
-                    # im = []
-                    # for ig in tagBody.find_all('img'):
-                    #     # im = Image.open(urljoin(urlBase, ig['src']))
-                    #     filename = urljoin(urlBase, ig['src'])
-                    #     req = requests.get(filename)
-                    #     if req.status_code == 200:
-                    #         im.append(ig)
                     dataMeta['image'] = urljoin(urlBase, tagImage['src'])
                 elif tagMetaImage is not None and 'content' in tagMetaImage.attrs:
                     dataMeta['image'] = urljoin(urlBase, tagMetaImage['content'])
@@ -171,13 +161,13 @@ assets.register(bundles)
 @app.route("/index/", methods=["GET", "POST"])
 # Define the website pages
 def home():
-    d = WebPagesPreview(jsonLinksList)
-    return render_template("index.html", catgData=d.catgData.keys())
+    wpp = WebPagesPreview(jsonLinksList)
+    return render_template("index.html", catgData = wpp.catgData.keys())
 
 @app.route("/createdb/")
-def catgLayout():
-    l = WebPagesPreview(jsonLinksList)
-    l.createPreviewDB()
+def createdb():
+    wpp = WebPagesPreview(jsonLinksList)
+    wpp.createPreviewDB()
     return render_template("createdb.html", title='createdb')
 
 @app.route("/category/<string:categoryItem>")
@@ -185,15 +175,18 @@ def catgLayout():
 def categoryLayout(categoryItem):
     # catgpreviews = PreviewDB.query.all()
     catgpreviews = PreviewDB.query.filter(PreviewDB.category == categoryItem.lower()).all()
-    results = [
-        {
-            "category": catgpreview.category,
-            "title": catgpreview.title,
-            "description": catgpreview.description,
-            "image": catgpreview.image
-        } for catgpreview in catgpreviews]
+    if catgpreviews:
+        results = [
+            {
+                "category": catgpreview.category,
+                "title": catgpreview.title,
+                "description": catgpreview.description,
+                "image": catgpreview.image
+            } for catgpreview in catgpreviews]
 
-    return render_template("category.html", title=categoryItem, sitepreview=results)
+        return render_template("category.html", title=categoryItem, sitepreview=results)
+    else:
+        return redirect(url_for('createdb'))
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -202,7 +195,7 @@ def page_not_found(e):
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
-    # db.drop_all()
+    db.drop_all()
     db.create_all()
     db.session.commit()
     app.run(threaded=True, port=5000, debug=True)
