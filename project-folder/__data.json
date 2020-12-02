@@ -10,16 +10,6 @@
   },
   {
     "category": "Services",
-    "website": "https://a858-nycnotify.nyc.gov/notifynyc",
-    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
-  },
-  {
-    "category": "Services",
-    "website": "https://www1.nyc.gov/site/dca/consumers/credit-debt.page",
-    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
-  },
-  {
-    "category": "Services",
     "website": "https://council.nyc.gov/press/2020/04/21/1940/",
     "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
   },
@@ -47,16 +37,6 @@
     "category": "Health",
     "website": "https://www1.nyc.gov/site/helpnownyc/index.page",
     "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
-  },
-  {
-    "category": "Health",
-    "website": "http://www.surveygizmo.com/s3/5505506/COVID-19-Partner-with-the-NYC-Health-Department?contactID=0033A00002XiVJD",
-    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
-  },
-  {
-    "category": "Health",
-    "website": "https://www.headspace.com/ny",
-    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation", "mental health"]
   },
   {
     "category": "Health",
@@ -108,12 +88,7 @@
     "website": "https://bioethics.jhu.edu/research-and-outreach/projects/ethics-guidance-lessons-from-ebola/",
     "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
   },
-  {
-    "category": "Health",
-    "website": "https://www.nypcc.org/",
-    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
-  },
-  {
+    {
     "category": "Services",
     "website": "https://www.nypcc.org/",
     "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
@@ -130,21 +105,6 @@
   },
   {
     "category": "Services",
-    "website": "http://www.mygovnyc.org/",
-    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
-  },
-  {
-    "category": "Services",
-    "website": "https://www.northwestbronx.org/",
-    "tags": ["services", "food", "school", "health", "housing", "immigrant", "immigrantation"]
-  },
-  {
-    "category": "Services",
-    "website": "https://www1.nyc.gov/site/hra/help/burial-assistance.page",
-    "tags": ["services", "burial", "health", "housing", "immigrant", "immigrantation"]
-  },
-  {
-    "category": "Services",
     "website": "https://www.vipservices.org/covid/",
     "tags": ["services", "health", "immigrant", "immigrantation"]
   },
@@ -156,16 +116,6 @@
   {
     "category": "Volunteer",
     "website": "https://www1.nyc.gov/site/helpnownyc/give-help/volunteer.page",
-    "tags": ["services", "food", "school", "health", "housing", "volunteer"]
-  },
-  {
-    "category": "Volunteer",
-    "website": "https://www.newyorkcares.org/coronavirus",
-    "tags": ["services", "food", "school", "health", "housing", "volunteer"]
-  },
-  {
-    "category": "Volunteer",
-    "website": "https://www.nycservice.org/search/index.php?cmd=widget&category_id=&key%20word=virtual&zip=false&isZip=false&cmd=widget#s",
     "tags": ["services", "food", "school", "health", "housing", "volunteer"]
   },
   {

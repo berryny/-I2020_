@@ -3,7 +3,6 @@
 {% block content %}
   <h1><span>{{title}}</span> Previews</h1>
   <div id="{{title}}" class="container">
-    <!-- {{sitepreview}} -->
     {% for preview in sitepreview: %}
       <div class="category">
         {% if preview['image'] %}

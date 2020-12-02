@@ -88,14 +88,23 @@ class WebPagesPreview(object):
                 soup = BeautifulSoup(req.content, "html.parser")
                 dataMeta = {}
                 tagTitle = soup.find('title')
+                tagBody = soup.find('body')
                 if tagTitle is not None:
                     dataMeta['title'] = tagTitle.text
 
                 # Site Meta or Description information
                 if soup.find('body'):
-                    tagBody = soup.find('body')
-                    tagDescription = tagBody.find('p')
+                    # tagDescription = tagBody.find('p')
+                    tagDescriptionAll = tagBody.find_all('p')
+                    tagDescriptionMax = [len(p.text) for p in tagDescriptionAll]
+                    if tagDescriptionMax:
+                        tagDescriptionSelect = max(enumerate(tagDescriptionMax), key=(lambda x: x[1]))
+                        tagDescription = tagDescriptionAll[tagDescriptionSelect[0]]
+                    else:
+                        tagDescription = None
+
                     tagMetaDescription = soup.find('meta', attrs={'property' : 'og:description'})
+
                     if tagDescription is not None:
                         dataMeta['description'] = tagDescription.text
                     elif tagMetaDescription is not None:
@@ -103,17 +112,18 @@ class WebPagesPreview(object):
                     else:
                         dataMeta['description'] = ''
 
-                tagMetaImage = soup.find('meta', attrs={'property' : 'og:image'})
-                tagRelImage = soup.find('rel', attrs={'property' : 'shortcut icon'})
-                tagImage = tagBody.find('img')
-                if tagImage is not None and 'src' in tagImage.attrs:
-                    dataMeta['image'] = urljoin(urlBase, tagImage['src'])
-                elif tagMetaImage is not None and 'content' in tagMetaImage.attrs:
-                    dataMeta['image'] = urljoin(urlBase, tagMetaImage['content'])
-                elif tagRelImage is not None and 'href' in tagRelImage.attrs:
-                    dataMeta['image'] = urljoin(urlBase, tagRelImage['href'])
-                else:
-                    dataMeta['image'] = ''
+                    tagMetaImage = soup.find('meta', attrs={'property' : 'og:image'})
+                    tagRelImage = soup.find('rel', attrs={'property' : 'shortcut icon'})
+                    tagImage = tagBody.find('img')
+
+                    if tagImage is not None and 'src' in tagImage.attrs:
+                        dataMeta['image'] = urljoin(urlBase, tagImage['src'])
+                    elif tagMetaImage is not None and 'content' in tagMetaImage.attrs:
+                        dataMeta['image'] = urljoin(urlBase, tagMetaImage['content'])
+                    elif tagRelImage is not None and 'href' in tagRelImage.attrs:
+                        dataMeta['image'] = urljoin(urlBase, tagRelImage['href'])
+                    else:
+                        dataMeta['image'] = ''
 
                 siteMeta.append(dataMeta)
         return siteMeta
@@ -195,7 +205,8 @@ def page_not_found(e):
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
-    db.drop_all()
+    # db.drop_all()
+    db.session.query(PreviewDB).delete()
     db.create_all()
     db.session.commit()
     app.run(threaded=True, port=5000, debug=True)
