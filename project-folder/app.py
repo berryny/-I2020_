@@ -18,8 +18,6 @@ from urllib.parse import urlparse, urljoin, urlunparse
 from PIL import Image
 from urllib.request import urlopen
 
-jsonLinksList = 'data.json'
-
 class WebPagesPreview(object):
     """docstring for WebPagesPreview."""
     data = ''
@@ -171,14 +169,9 @@ assets.register(bundles)
 @app.route("/index/", methods=["GET", "POST"])
 # Define the website pages
 def home():
-    wpp = WebPagesPreview(jsonLinksList)
-    return render_template("index.html", catgData = wpp.catgData.keys())
-
-@app.route("/createdb/")
-def createdb():
-    wpp = WebPagesPreview(jsonLinksList)
-    wpp.createPreviewDB()
-    return render_template("createdb.html", title='createdb')
+    catgFilter = PreviewDB.query.filter()
+    wpp = set([cf.category for cf in catgFilter])
+    return render_template("index.html", catgData = wpp)
 
 @app.route("/category/<string:categoryItem>")
 # Define the category page
@@ -196,7 +189,7 @@ def categoryLayout(categoryItem):
 
         return render_template("category.html", title=categoryItem, sitepreview=results)
     else:
-        return redirect(url_for('createdb'))
+        return redirect(url_for('page_not_found'))
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -205,8 +198,4 @@ def page_not_found(e):
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
-    # db.drop_all()
-    db.session.query(PreviewDB).delete()
-    db.create_all()
-    db.session.commit()
     app.run(threaded=True, port=5000, debug=True)

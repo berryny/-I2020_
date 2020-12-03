@@ -5,9 +5,9 @@ from app import db, DBTable
 rows = {
     "row1": "row1_val",
     "row2": "row2_val",
-} 
+}
 
-# this `main` function should run your scraping when 
+# this `main` function should run your scraping when
 # this script is ran.
 def main():
     db.drop_all()

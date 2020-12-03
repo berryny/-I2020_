@@ -5,7 +5,7 @@
   <p>Select a category</p>
   <ul>
     {% for cat in catgData: %}
-      <li><a href="/category/{{cat.lower()}}">{{cat}}</a></li>
+      <li><a href="/category/{{cat.lower()}}">{{cat.capitalize()}}</a></li>
     {% endfor %}
   </ul>
 
