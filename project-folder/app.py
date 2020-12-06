@@ -196,6 +196,42 @@ def page_not_found(e):
     # set the 404 status explicitly
     return render_template('404.html'), 404
 
+# GET requests to get your data in json
+# POST requests to store/update some data
+# DELETE requests to delete some data
+
+# change this to return your data
+@app.route('/api', methods=['GET'])
+def get_data():
+    table = PreviewDB.query.all()
+    d = [{'category':row.category, 'title':row.title, 'description':row.description, 'image':row.image} for row in table]
+    return jsonify(d)
+
+# change this to allow users to add/update data
+@app.route('/api', methods=['POST'])
+def add_data():
+    addSite = {}
+    for k,v in request.args.items():
+        print('POST:')
+        if not k in d.keys():
+            # print('keys',k,v)
+            addSite[k] = v
+    return jsonify({'site':addSite})
+        
+# change this to allow the deletion of data
+@app.route('/api', methods=['DELETE'])
+def delete_data():
+    deleted = {}
+    for k,v in request.args.items():
+        print('DELETE:')
+        try:
+            d.pop(k)
+            deleted[k] = v
+        except:
+            continue
+    return jsonify({'deleted':deleted})
+
+
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
     app.run(threaded=True, port=5000, debug=True)
