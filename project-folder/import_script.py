@@ -1,12 +1,11 @@
 from app import db, PreviewDB, WebPagesPreview
 
+# json attributes category defining sections and website to scrap for preview layout
 jsonLinksList = 'data.json'
 
-# this `main` function should run your scraping when
-# this script is ran.
+# this `main` function to scrap a web page 
 def main():
     db.drop_all()
-    # db.session.query(PreviewDB).delete()
     db.create_all()
     wpp = WebPagesPreview(jsonLinksList)
     wpp.createPreviewDB()

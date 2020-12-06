@@ -26,7 +26,6 @@ class WebPagesPreview(object):
     def __init__(self, jsonFile):
         self.jsonFile = jsonFile
 
-    # def openJSON(self):
         f = open (self.jsonFile, "r")
         self.data = json.loads(f.read())
         f.close()
@@ -159,6 +158,7 @@ bundles = {
         output='gen/all.js'),
 
     'all_css': Bundle(
+        'css/normalize.css',
         'css/style.css',
         output='gen/all.css'),
 }

@@ -1,5 +1,30 @@
 @import "normalize.css";
 
+body {
+  padding: 0 5%;
+  color: #444444;
+}
+a {
+  text-decoration: none;
+  color: #444444;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header nav ul li {
+  display: inline;
+  list-style-type: none;
+}
+header nav ul li a {
+  color: royalblue;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+  color: olivedrab;
+}
+
+
 h1 span {
   text-transform: capitalize;
 }
@@ -20,4 +45,8 @@ h1 span {
   width: 100%;
   background-color: #ddd;
   margin-bottom: 1em;
+}
+
+footer {
+  color: darkslategray
 }

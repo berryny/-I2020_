@@ -16,7 +16,6 @@ class Config:
     TEMPLATES_FOLDER = 'templates'
 
     # Database
-    # SQLALCHEMY_DATABASE_URI = 'sqlite:///sitepreview.db'
     SQLALCHEMY_DATABASE_URI = environ.get('SQLALCHEMY_DATABASE_URI')
     # this line is to prevent SQLAlchemy from throwing a warning
     # if you don't get one with out it, feel free to remove
