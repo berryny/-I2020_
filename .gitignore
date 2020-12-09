@@ -1,4 +1,22 @@
+/athome
+*.cfg
+.vscode
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+*.pyc
+
+# Jupyter Notebook
 __pycache__
 .ipynb_checkpoints
-athome/*
-*.cfg
+
+# Project Folder
+project-folder/*.pyc
+project-folder/*.db
+
