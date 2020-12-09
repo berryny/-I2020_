@@ -116,8 +116,8 @@ Accessing `project_database.db` from the terminal (command prompt)
     - Insert values to database by executing `py separate_import_file.py` 
 - Return to teminal and type command `sqlite3 project_database.db`
     - `.tables` to display all tables in the database
-    - `select * from previewDB;` to display all column and rows in the database
-        - `select id from previewDB;` to view the column **id** pirmary key created using **UUID**
+    - `select * from tableName;` to display all column and rows in the database
+        - `select id from tableName;` to view the column **id** pirmary key created using **UUID**
 
 ```
 SQLite version 3.32.3 2020-06-18 14:00:33
