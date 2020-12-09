@@ -112,7 +112,7 @@ Accessing `sitepreview.db` from terminal (command prompt)
 - `cd` to project directory
 - In this project we define the database `'sqlite:///project_database.db'` config in `app.py`
     - Insert values to database by executing `py separate_import_file.py` 
-- Return to teminal and type command `sqlite3 sitepreview.db`
+- Return to teminal and type command `sqlite3 project_database.db`
     - `.tables` to display all tables in the database
     - `select * from previewDB;` to display all column and rows in the database
         - `select id from previewDB;` to view the column **id** pirmary key created using **UUID**
