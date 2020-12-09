@@ -10,8 +10,11 @@ from flask_assets import Environment, Bundle
 from flask_sqlalchemy import SQLAlchemy
 
 from bs4 import BeautifulSoup
-import requests, json, urllib3, os, random, sys
+import requests, json, urllib3, os, random, sys, uuid
 from urllib.parse import urlparse, urljoin, urlunparse
+
+# UUIDType from the SQLAlchemy-Utils package:
+from sqlalchemy.dialects.postgresql import UUID
 
 # Install  Pillow 8.0.1 [https://pypi.org/project/Pillow/] to find time image size (h,w)
 # pip install Pillow / py -m pip install Pillow
@@ -133,10 +136,12 @@ app.config.from_object('config.Config')
 # this set's up our db connection to our flask application
 #
 db = SQLAlchemy(app)
+
 # this is our model (aka table)
 class PreviewDB(db.Model):
     # __tablename__ = 'example'
-    id = db.Column(db.Integer, primary_key=True)
+    # make a random UUID
+    id = db.Column('id', db.Text(length=36), default=lambda: str(uuid.uuid4()), primary_key=True)
     category = db.Column(db.String(255), nullable=False)
     title = db.Column(db.String(255), nullable=False)
     description = db.Column(db.Text, nullable=False)
@@ -189,12 +194,12 @@ def categoryLayout(categoryItem):
 
         return render_template("category.html", title=categoryItem, sitepreview=results)
     else:
-        return redirect(url_for('page_not_found'))
+        return render_template("404.html")
 
 @app.errorhandler(404)
 def page_not_found(e):
     # set the 404 status explicitly
-    return render_template('404.html'), 404
+    return pytho, 404
 
 # GET requests to return / select all the data from PreviewDB
 @app.route('/api', methods=['GET'])
