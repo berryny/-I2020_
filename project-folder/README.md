@@ -106,7 +106,9 @@ View the [site](https://python-web-scrapping.herokuapp.com/) in action.
 
 ## SQLite3
 
-Accessing `sitepreview.db` from terminal (command prompt)
+SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world.
+
+Accessing `project_database.db` from the terminal (command prompt)
 
 - Open computer terminal
 - `cd` to project directory
@@ -127,4 +129,8 @@ sqlite> select id from previewDB;
 ```
 - Use **Ctrl+C** to exit SQLite on Windows
 
-Learned watching [Connecting to a SQLite Database Using Flask-SQLAlchemy](https://www.youtube.com/watch?v=KrRzZGcHjK8)
+### SQLite3 Resources
+
+- [What Is SQLite?](https://sqlite.org/index.html)
+- [SQLite Python tutorial](http://zetcode.com/db/sqlitepythontutorial/)
+- Learned watching youtube video [Connecting to a SQLite Database Using Flask-SQLAlchemy](https://www.youtube.com/watch?v=KrRzZGcHjK8)
