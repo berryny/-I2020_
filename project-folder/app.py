@@ -21,112 +21,6 @@ from sqlalchemy.dialects.postgresql import UUID
 from PIL import Image
 from urllib.request import urlopen
 
-class WebPagesPreview(object):
-    """docstring for WebPagesPreview."""
-    data = ''
-    catgData = ''
-
-    def __init__(self, jsonFile):
-        self.jsonFile = jsonFile
-
-        f = open (self.jsonFile, "r")
-        self.data = json.loads(f.read())
-        f.close()
-        self.catgData = self.dataJSON()
-
-    def dataJSON(self):
-        sortedLinks = sorted(self.data, key=lambda k: k['category'], reverse=False)
-        categories = [k['category'] for k in sortedLinks]
-        categoryDict = {}
-        for c in categories:
-            categoriesLst = []
-            for l in sortedLinks:
-                if c == l['category']:
-                    categoriesLst.append(l['website'])
-                    categoryDict[c] = categoriesLst
-        return categoryDict
-
-    def createPreviewDB(self):
-        previewsLst = []
-        for catgItems in self.catgData:
-            getPreviews = self.dataCategory(catgItems.lower())
-            scrapPreviews = self.scrapSite(getPreviews)
-            for gsp in scrapPreviews:
-                gsp['category'] = catgItems.lower()
-                previewsLst.append( gsp )
-
-        if previewsLst:
-            for pLst in previewsLst:
-                try:
-                    newentry = PreviewDB(category=pLst['category'], title=pLst['title'], description=pLst['description'], image=pLst['image'])
-                    db.session.add(newentry)
-                    db.session.commit()
-                except:
-                    print("Unexpected error:", sys.exc_info()[0])
-
-    def dataCategory(self, catg):
-        self.catg = catg
-        self.catItems = self.catgData
-        for k,val in self.catItems.items():
-            if k.lower() == self.catg:
-                return val
-
-    def scrapSite(self,site):
-        self.site = site
-        siteMeta = []
-
-        for s in set(site):
-            # parse the site base url to create image src
-            urlInfo = urlparse(s)
-            if len(urlInfo.scheme) == 0 or len(urlInfo.netloc) == 0:
-                raise RuntimeError('please use complete URL starting with http:// or https://')
-            urlBase = urlInfo.scheme + '://' + urlInfo.netloc
-
-            # Check if request was sucessful
-            req = requests.get(s)
-            if req.status_code == 200:
-                soup = BeautifulSoup(req.content, "html.parser")
-                dataMeta = {}
-                tagTitle = soup.find('title')
-                tagBody = soup.find('body')
-                if tagTitle is not None:
-                    dataMeta['title'] = tagTitle.text
-
-                # Site Meta or Description information
-                if soup.find('body'):
-                    # tagDescription = tagBody.find('p')
-                    tagDescriptionAll = tagBody.find_all('p')
-                    tagDescriptionMax = [len(p.text) for p in tagDescriptionAll]
-                    if tagDescriptionMax:
-                        tagDescriptionSelect = max(enumerate(tagDescriptionMax), key=(lambda x: x[1]))
-                        tagDescription = tagDescriptionAll[tagDescriptionSelect[0]]
-                    else:
-                        tagDescription = None
-
-                    tagMetaDescription = soup.find('meta', attrs={'property' : 'og:description'})
-
-                    if tagDescription is not None:
-                        dataMeta['description'] = tagDescription.text
-                    elif tagMetaDescription is not None:
-                        dataMeta['description'] = tagMetaDescription.text
-                    else:
-                        dataMeta['description'] = ''
-
-                    tagMetaImage = soup.find('meta', attrs={'property' : 'og:image'})
-                    tagRelImage = soup.find('rel', attrs={'property' : 'shortcut icon'})
-                    tagImage = tagBody.find('img')
-
-                    if tagImage is not None and 'src' in tagImage.attrs:
-                        dataMeta['image'] = urljoin(urlBase, tagImage['src'])
-                    elif tagMetaImage is not None and 'content' in tagMetaImage.attrs:
-                        dataMeta['image'] = urljoin(urlBase, tagMetaImage['content'])
-                    elif tagRelImage is not None and 'href' in tagRelImage.attrs:
-                        dataMeta['image'] = urljoin(urlBase, tagRelImage['href'])
-                    else:
-                        dataMeta['image'] = ''
-
-                siteMeta.append(dataMeta)
-        return siteMeta
 
 app = Flask(__name__)
 app.config.from_object('config.Config')
@@ -178,6 +72,11 @@ def home():
     wpp = set([cf.category for cf in catgFilter])
     return render_template("index.html", catgData = wpp)
 
+@app.route("/about/")
+# Define the category page
+def about():
+    return render_template("about.html")
+    
 @app.route("/category/<string:categoryItem>")
 # Define the category page
 def categoryLayout(categoryItem):
@@ -199,7 +98,7 @@ def categoryLayout(categoryItem):
 @app.errorhandler(404)
 def page_not_found(e):
     # set the 404 status explicitly
-    return pytho, 404
+    return render_template("404.html"), 404
 
 # GET requests to return / select all the data from PreviewDB
 @app.route('/api', methods=['GET'])
@@ -209,5 +108,10 @@ def get_data():
     return jsonify(d)
 
 if __name__ == '__main__':
+    # db.drop_all()
+    # db.session.query(PreviewDB).delete()
+    # db.create_all()
+    # db.session.commit()
+
     # Threaded option to enable multiple instances for multiple user access support
     app.run(threaded=True, port=5000, debug=True)
