@@ -19,7 +19,8 @@
     <ul>
       <li>Run the below command lines</li>
     </ul>
-    <pre><code>pip install python-dotenv
+    <pre><code>
+      pip install python-dotenv
       flask run
       </code></pre>
     <h2>Files</h2>
@@ -27,11 +28,12 @@
       <li>Create a <code>config.py</code> to set Flask config variables with a <code>class Config:</code></li>
       <li>Create a <code>.env</code> file containing
         <ul>
-          <li>Database <code>SQLALCHEMY_DATABASE_URI = 'sqlite:///sitepreview.db'</code></li>
+          <li>Database <code>SQLALCHEMY_DATABASE_URI = 'sqlite:///your_db_name.db'</code></li>
         </ul>
       </li>
     </ul>
-    <pre><code>SECRET_KEY =
+    <pre><code>
+      SECRET_KEY = 
       SQLALCHEMY_DATABASE_URI =
       </code></pre>
     <ul>
@@ -43,11 +45,12 @@
       when it can't.</p>
     <ul>
       <li><a href="https://sqlalchemy-utils.readthedocs.io/en/latest/data_types.html#module-sqlalchemy_utils.types.uuid"
-          rel="nofollow">UUIDType from the SQLAlchemy-Utils package:</a></li>
+          rel="nofollow" target="_blank">UUIDType from the SQLAlchemy-Utils package:</a></li>
       <li><a href="https://sqlalchemy-utils.readthedocs.io/en/latest/_modules/sqlalchemy_utils/types/uuid.html#UUIDType"
-          rel="nofollow">Source code for sqlalchemy_utils.types.uuid</a></li>
+          rel="nofollow" target="_blank">Source code for sqlalchemy_utils.types.uuid</a></li>
     </ul>
-    <pre><code>from sqlalchemy_utils import UUIDType
+    <pre><code>
+      from sqlalchemy_utils import UUIDType
       import uuid
       
       class User(Base):
@@ -56,17 +59,25 @@
           # Pass `binary=False` to fallback to CHAR instead of BINARY
           id = sa.Column(UUIDType(binary=False), primary_key=True)
       </code></pre>
+
+    <h2>RESTful API</h2>
+    <p>View project's GET <a href="/api">API</a></p>
+    <p><a href="https://realpython.com/api-integration-in-python/" target="_blank" rel="noopener noreferrer nofollow">Learn</a> API Integration in Python – Part 1</p>
+    
     <h2>Herokuapp</h2>
     <h3>Setup</h3>
     <p><strong>Install the Heroku CLI</strong></p>
-    <pre><code>heroku login
+    <pre><code>
+      heroku login
       </code></pre>
     <p><strong>Clone the repository</strong></p>
-    <pre><code>heroku git:clone -a python-web-scrapping
+    <pre><code>
+      heroku git:clone -a python-web-scrapping
       cd python-web-scrapping
       </code></pre>
     <p><strong>Deploy your changes</strong></p>
-    <pre><code>git add .
+    <pre><code>
+      git add .
       git commit -am "make it better"
       git push heroku master
       </code></pre>
@@ -118,7 +129,7 @@
       </li>
     </ul>
     <h3>Execute</h3>
-    <p>View the <a href="https://python-web-scrapping.herokuapp.com/" rel="nofollow">site</a> in action.</p>
+    <p>View the <a href="https://python-web-scrapping.herokuapp.com/" rel="nofollow" target="_blank">site</a> in action.</p>
     <h2>SQLite3</h2>
     <p>SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured,
       SQL database engine. SQLite is the most used database engine in the world.</p>
@@ -144,7 +155,8 @@
         </ul>
       </li>
     </ul>
-    <pre><code>SQLite version 3.32.3 2020-06-18 14:00:33
+    <pre><code>
+      SQLite version 3.32.3 2020-06-18 14:00:33
       Enter ".help" for usage hints.
       sqlite&gt; .tables
       tableDBName
@@ -156,9 +168,9 @@
     </ul>
     <h3>SQLite3 Resources</h3>
     <ul>
-      <li><a href="https://sqlite.org/index.html" rel="nofollow">What Is SQLite?</a></li>
-      <li><a href="http://zetcode.com/db/sqlitepythontutorial/" rel="nofollow">SQLite Python tutorial</a></li>
-      <li>Learned watching youtube video <a href="https://www.youtube.com/watch?v=KrRzZGcHjK8" rel="nofollow">Connecting
+      <li><a href="https://sqlite.org/index.html" rel="nofollow" target="_blank">What Is SQLite?</a></li>
+      <li><a href="http://zetcode.com/db/sqlitepythontutorial/" rel="nofollow" target="_blank">SQLite Python tutorial</a></li>
+      <li>Learned watching youtube video <a href="https://www.youtube.com/watch?v=KrRzZGcHjK8" rel="nofollow" target="_blank">Connecting
           to a SQLite Database Using Flask-SQLAlchemy</a></li>
     </ul>
   </article>
