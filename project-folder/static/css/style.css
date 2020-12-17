@@ -1,8 +1,26 @@
-@import "normalize.css";
+/* @import "normalize.css"; */
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'); */
 
+:root {
+  --light-blue: cornflowerblue;
+  --blue: #3387da;
+  --font-lato: 'Lato', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
+}
+
+/* Site Fonts */
+/* 
+  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif; 
+*/
+
+/* Global Styles */
 body {
   padding: 0 5%;
   color: #444444;
+  word-break: break-word;
+  font-family: var(--font-lato);
+  font-weight: 300;
 }
 a {
   text-decoration: none;
@@ -11,9 +29,29 @@ a {
 a:hover {
   text-decoration: underline;
 }
+p {
+  margin-top: 0;
+}
 
+h1 span {
+  text-transform: capitalize;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-raleway);
+}
+
+/* Global Styles */
+.social-media { margin:0; padding:0; list-style: none;}
+.social-media li { display: inline;}
+
+/* Navagation Styles */
+header nav ul {
+  padding: 0;
+}
 header nav ul li {
   display: inline;
+  margin-right: 2%;
   list-style-type: none;
 }
 header nav ul li a {
@@ -24,15 +62,41 @@ header nav ul li a:hover {
   color: olivedrab;
 }
 
+/* Index Styles */
+.banner-container {
+  background-color: var(--blue);
+  color: white;
+  text-align: center;
+  padding: 5% 0;
+}
 
-h1 span {
-  text-transform: capitalize;
+.banner-container h1 {
+  margin-bottom: 0;
+}
+.category-list ul {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1em;
+}
+.category-list ul li a {
+  display: block;
+  padding: 3% 0;
+  border: solid 1px var(--light-blue);
+  border-radius: 10px 10px;
+  text-decoration: none;
+}
+.category-list ul li a:hover {
+  background-color: var(--blue);
+  color: white;
 }
 
 .container {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding: 5%;
 }
 
@@ -43,10 +107,27 @@ h1 span {
 .category img {
   display: block;
   width: 100%;
-  background-color: #ddd;
+  background-color: #eee;
   margin-bottom: 1em;
 }
 
+/* About */
+pre {
+  display: block;
+  font-size: 87.5%;
+  background-color: #212529;
+  padding: 1%;
+}
+pre code {
+  background-color: transparent;
+  color: #fff;
+}
+code {
+  background-color: #cccccc;
+  color: red;
+}
+/* footer */
 footer {
+  margin-top: 5%;
   color: darkslategray
 }

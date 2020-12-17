@@ -9,6 +9,9 @@
   {% assets "all_css" %}
   <link rel="stylesheet" href="{{ ASSET_URL }}" />
   {% endassets %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@400;500&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="icon" href="favicon.ico">
   <title>{% block title %}{% endblock %}</title>
   {% endblock %}
@@ -20,6 +23,7 @@
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
+        <li><a href="https://github.com/berryny/-I2020_/tree/master/project-folder" target="_blank">GitHub Repo</a></li>
       </ul>
     </nav>
   </header>
@@ -27,9 +31,13 @@
     {% block content %}{% endblock %}
     {{content}}
   </main>
-  <footer class="my-4 text-center">
+  <footer class="text-center">
     {% block footer %}
-    &copy; 2020 Data Science Fellowship Project
+    <p>&copy; 2020 Data Science Fellowship Project - Website Scraping</p>
+    <ul class="social-media">
+      <li><a href="https://www.linkedin.com/in/jdesire/"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="https://github.com/berryny"><i class="fab fa-github"></i></a></li>
+    </ul>
     {% endblock %}
   </footer>
   {% assets "all_js" %}

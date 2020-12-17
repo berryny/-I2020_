@@ -102,7 +102,7 @@ WTForms==2.3.3
 
 ### Execute
 
-View the [site](https://python-web-scrapping.herokuapp.com/) in action.
+View the [site](https://python-web-scrapping.herokuapp.com/) in action on Heroku.
 
 ## SQLite3
 
@@ -134,3 +134,32 @@ sqlite> select id from previewDB;
 - [What Is SQLite?](https://sqlite.org/index.html)
 - [SQLite Python tutorial](http://zetcode.com/db/sqlitepythontutorial/)
 - Learned watching youtube video [Connecting to a SQLite Database Using Flask-SQLAlchemy](https://www.youtube.com/watch?v=KrRzZGcHjK8)
+
+## Project Deliverable
+
+For your final project, you will need to:
+
+- Scrape data of significance, clean it up to extract the specific data you need.
+- Automate the process of storing it in your database.
+- Create a flask application that will make our database accessible from the web and deploy it.
+
+Setting up our flask web application and deploy it to a SAAS provider as opposed to setting up our own linux server and doing the devops ourselves.
+
+The flask application will needs to:
+
+- contain proper configs `(SECRET_KEY and SQLALCHEMY_DATABASE_URI)`.
+- contain a database model that both your scraping script and the flask application uses.
+- contain at least two routes (one providing an HTML response and the other a JSON response).
+- your HTML response should be rendering a jinja template.
+
+You should also try to do the following:
+
+- customize your flask HTML views to display your data and to provide links to your API `(JSON views)`.
+- demonstrate your understanding of the concepts we've discussed by integrating any of the things we covered.
+- make your project portfolio worthy by cleaning up your code and making the views something you'd want to show a possible employer.
+Once your flask application (and scraping script) runs without issue on your local machine, deploy your application to either Heroku or PythonAnywhere using the instructions from the lab section of our week 13 classes. As always, feel free to reach out to teaching staff via slack if help is needed.
+
+When completed, submit the following:
+
+- a link to your github repo
+- a link to your live web application

@@ -35,6 +35,7 @@ db = SQLAlchemy(app)
 class PreviewDB(db.Model):
     # __tablename__ = 'example'
     # make a random UUID
+    print('db')
     id = db.Column('id', db.Text(length=36), default=lambda: str(uuid.uuid4()), primary_key=True)
     category = db.Column(db.String(255), nullable=False)
     title = db.Column(db.String(255), nullable=False)
@@ -59,7 +60,7 @@ bundles = {
     'all_css': Bundle(
         'css/normalize.css',
         'css/style.css',
-        output='gen/all.css'),
+        output='gen/all_styles.css'),
 }
 assets = Environment(app)
 assets.register(bundles)
@@ -108,10 +109,6 @@ def get_data():
     return jsonify(d)
 
 if __name__ == '__main__':
-    # db.drop_all()
-    # db.session.query(PreviewDB).delete()
-    # db.create_all()
-    # db.session.commit()
 
     # Threaded option to enable multiple instances for multiple user access support
-    app.run(threaded=True, port=5000, debug=True)
+    app.run( port=5000, debug=True)

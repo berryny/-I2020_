@@ -1,3 +1,7 @@
+from bs4 import BeautifulSoup
+import requests, json, urllib3, os, random, sys, uuid
+from urllib.parse import urlparse, urljoin, urlunparse
+
 from app import db, PreviewDB
 
 # json attributes category defining sections and website to scrap for preview layout
@@ -71,7 +75,7 @@ class WebPagesPreview(object):
                 dataMeta = {}
                 tagTitle = soup.find('title')
                 tagBody = soup.find('body')
-                if tagTitle is not None:
+                if tagTitle:
                     dataMeta['title'] = tagTitle.text
 
                 # Site Meta or Description information
@@ -87,9 +91,9 @@ class WebPagesPreview(object):
 
                     tagMetaDescription = soup.find('meta', attrs={'property' : 'og:description'})
 
-                    if tagDescription is not None:
+                    if tagDescription:
                         dataMeta['description'] = tagDescription.text
-                    elif tagMetaDescription is not None:
+                    elif tagMetaDescription:
                         dataMeta['description'] = tagMetaDescription.text
                     else:
                         dataMeta['description'] = ''
@@ -98,7 +102,7 @@ class WebPagesPreview(object):
                     tagRelImage = soup.find('rel', attrs={'property' : 'shortcut icon'})
                     tagImage = tagBody.find('img')
 
-                    if tagImage is not None and 'src' in tagImage.attrs:
+                    if tagImage and 'src' in tagImage.attrs:
                         dataMeta['image'] = urljoin(urlBase, tagImage['src'])
                     elif tagMetaImage is not None and 'content' in tagMetaImage.attrs:
                         dataMeta['image'] = urljoin(urlBase, tagMetaImage['content'])
@@ -116,7 +120,6 @@ def main():
     db.create_all()
     wpp = WebPagesPreview(jsonLinksList)
     wpp.createPreviewDB()
-    db.session.commit()
 
 if __name__ == '__main__':
     main()
