@@ -425,20 +425,23 @@ header nav ul li a:hover {
 }
 .category-list ul {
   padding: 0;
-  text-align: center;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1em;
 }
-.category-list ul li a {
+.category-list ul li a, .btn {
   display: block;
   padding: 3% 0;
   border: solid 1px var(--light-blue);
   border-radius: 10px 10px;
+  text-align: center;
   text-decoration: none;
 }
-.category-list ul li a:hover {
+.btn span {
+  margin-left: 1em;
+}
+.category-list ul li a:hover, .btn:hover {
   background-color: var(--blue);
   color: white;
 }

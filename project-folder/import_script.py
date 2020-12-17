@@ -44,7 +44,7 @@ class WebPagesPreview(object):
         if previewsLst:
             for pLst in previewsLst:
                 try:
-                    newentry = PreviewDB(category=pLst['category'], title=pLst['title'], description=pLst['description'], image=pLst['image'])
+                    newentry = PreviewDB(category=pLst['category'], title=pLst['title'], description=pLst['description'], url=pLst['url'], image=pLst['image'])
                     db.session.add(newentry)
                     db.session.commit()
                 except:
@@ -75,6 +75,7 @@ class WebPagesPreview(object):
                 dataMeta = {}
                 tagTitle = soup.find('title')
                 tagBody = soup.find('body')
+
                 if tagTitle:
                     dataMeta['title'] = tagTitle.text
 
@@ -110,6 +111,8 @@ class WebPagesPreview(object):
                         dataMeta['image'] = urljoin(urlBase, tagRelImage['href'])
                     else:
                         dataMeta['image'] = ''
+
+                    dataMeta['url'] = s
 
                 siteMeta.append(dataMeta)
         return siteMeta

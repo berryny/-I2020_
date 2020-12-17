@@ -40,12 +40,14 @@ class PreviewDB(db.Model):
     category = db.Column(db.String(255), nullable=False)
     title = db.Column(db.String(255), nullable=False)
     description = db.Column(db.Text, nullable=False)
+    url = db.Column(db.Text, nullable=False)
     image = db.Column(db.Text, nullable=False)
 
-    def __init__(self, category, title, description, image):
+    def __init__(self, category, title, description, url, image):
         self.category = category
         self.title = title
         self.description = description
+        self.url = url
         self.image = image
 
     def __repr__(self):
@@ -89,6 +91,7 @@ def categoryLayout(categoryItem):
                 "category": catgpreview.category,
                 "title": catgpreview.title,
                 "description": catgpreview.description,
+                "url": catgpreview.url,
                 "image": catgpreview.image
             } for catgpreview in catgpreviews]
 
@@ -105,7 +108,7 @@ def page_not_found(e):
 @app.route('/api', methods=['GET'])
 def get_data():
     table = PreviewDB.query.all()
-    d = [{'category':row.category, 'title':row.title, 'description':row.description, 'image':row.image} for row in table]
+    d = [{'category':row.category, 'title':row.title, 'description':row.description, 'url':row.url, 'image':row.image} for row in table]
     return jsonify(d)
 
 if __name__ == '__main__':
