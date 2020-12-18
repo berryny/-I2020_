@@ -2,6 +2,7 @@
 /* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'); */
 
 :root {
+  --blank: #212529;
   --white: #fff;
   --light-blue: cornflowerblue;
   --blue: #3387da;
@@ -32,7 +33,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-a[target="_blank"]:after {
+a[target="_blank"]::after {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: "\f35d";
@@ -40,6 +41,10 @@ a[target="_blank"]:after {
   font-size: .75em;
   color: var(--blue);
 }
+a[target="_blank"]:hover:after {
+  color: var(--black) !important;
+}
+
 p {
   margin-top: 0;
 }
@@ -108,7 +113,8 @@ header nav ul li a:hover {
 }
 .category-list ul li a:hover, .btn:hover {
   background-color: var(--blue);
-  color: white;
+  color: var(--white);
+  text-decoration: none;
 }
 
 .container {
@@ -130,11 +136,10 @@ header nav ul li a:hover {
 }
 
 /* About */
-
 pre {
   display: block;
   font-size: 87.5%;
-  background-color: #212529;
+  background-color: var(--black);
   padding: 1%;
 }
 pre code {
@@ -145,7 +150,8 @@ code {
   background-color: #F6F8FA;
   color: red;
 }
-/* footer */
+
+/* Footer */
 footer {
   margin: 5% 0;
   color: darkslategray
